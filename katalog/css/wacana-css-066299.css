@@ -1,0 +1,54 @@
+/* wacana-css-066299.css · pola tampilan kata angka simbol biner */
+:root { --nomor-unit: 66299; --warna-unit: hsl(59 42% 62%); }
+.wacana-css-066299 { color: var(--warna-unit); }
+  --pola-1: 0;
+  --pola-2: 0.01;
+  --pola-3: 0.02;
+  --pola-4: 0.03;
+  --pola-5: 0.04;
+  --pola-6: 0.05;
+  --pola-7: 0.06;
+  --pola-8: 0.07;
+  --pola-9: 0.08;
+  --pola-10: 0.09;
+  --pola-11: 0.1;
+  --pola-12: 0.11;
+  --pola-13: 0.12;
+  --pola-14: 0.13;
+  --pola-15: 0.14;
+  --pola-16: 0.15;
+  --pola-17: 0.16;
+  --pola-18: 0.17;
+  --pola-19: 0.18;
+  --pola-20: 0.19;
+  --pola-21: 0.2;
+  --pola-22: 0.21;
+  --pola-23: 0.22;
+  --pola-24: 0.23;
+  --pola-25: 0.24;
+  --pola-26: 0.25;
+  --pola-27: 0.26;
+  --pola-28: 0.27;
+  --pola-29: 0.28;
+  --pola-30: 0.29;
+  --pola-31: 0.3;
+  --pola-32: 0.31;
+  --pola-33: 0.32;
+  --pola-34: 0.33;
+  --pola-35: 0.34;
+  --pola-36: 0.35;
+  --pola-37: 0.36;
+  --pola-38: 0.37;
+  --pola-39: 0.38;
+  --pola-40: 0.39;
+  --pola-41: 0.4;
+  --pola-42: 0.41;
+  --pola-43: 0.42;
+  --pola-44: 0.43;
+  --pola-45: 0.44;
+  --pola-46: 0.45;
+  --pola-47: 0.46;
+  --pola-48: 0.47;
+  --pola-49: 0.48;
+}
+/* akhir pola 66299 */

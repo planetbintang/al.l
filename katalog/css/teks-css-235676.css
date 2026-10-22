@@ -1,0 +1,54 @@
+/* teks-css-235676.css · pola tampilan kata angka simbol biner */
+:root { --nomor-unit: 235676; --warna-unit: hsl(236 42% 62%); }
+.teks-css-235676 { color: var(--warna-unit); }
+  --pola-1: 0.77;
+  --pola-2: 0.78;
+  --pola-3: 0.79;
+  --pola-4: 0.8;
+  --pola-5: 0.81;
+  --pola-6: 0.82;
+  --pola-7: 0.83;
+  --pola-8: 0.84;
+  --pola-9: 0.85;
+  --pola-10: 0.86;
+  --pola-11: 0.87;
+  --pola-12: 0.88;
+  --pola-13: 0.89;
+  --pola-14: 0.9;
+  --pola-15: 0.91;
+  --pola-16: 0.92;
+  --pola-17: 0.93;
+  --pola-18: 0.94;
+  --pola-19: 0.95;
+  --pola-20: 0.96;
+  --pola-21: 0.97;
+  --pola-22: 0.98;
+  --pola-23: 0.99;
+  --pola-24: 0;
+  --pola-25: 0.01;
+  --pola-26: 0.02;
+  --pola-27: 0.03;
+  --pola-28: 0.04;
+  --pola-29: 0.05;
+  --pola-30: 0.06;
+  --pola-31: 0.07;
+  --pola-32: 0.08;
+  --pola-33: 0.09;
+  --pola-34: 0.1;
+  --pola-35: 0.11;
+  --pola-36: 0.12;
+  --pola-37: 0.13;
+  --pola-38: 0.14;
+  --pola-39: 0.15;
+  --pola-40: 0.16;
+  --pola-41: 0.17;
+  --pola-42: 0.18;
+  --pola-43: 0.19;
+  --pola-44: 0.2;
+  --pola-45: 0.21;
+  --pola-46: 0.22;
+  --pola-47: 0.23;
+  --pola-48: 0.24;
+  --pola-49: 0.25;
+}
+/* akhir pola 235676 */

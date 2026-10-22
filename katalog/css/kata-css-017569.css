@@ -1,0 +1,54 @@
+/* kata-css-017569.css · pola tampilan kata angka simbol biner */
+:root { --nomor-unit: 17569; --warna-unit: hsl(289 42% 62%); }
+.kata-css-017569 { color: var(--warna-unit); }
+  --pola-1: 0.7;
+  --pola-2: 0.71;
+  --pola-3: 0.72;
+  --pola-4: 0.73;
+  --pola-5: 0.74;
+  --pola-6: 0.75;
+  --pola-7: 0.76;
+  --pola-8: 0.77;
+  --pola-9: 0.78;
+  --pola-10: 0.79;
+  --pola-11: 0.8;
+  --pola-12: 0.81;
+  --pola-13: 0.82;
+  --pola-14: 0.83;
+  --pola-15: 0.84;
+  --pola-16: 0.85;
+  --pola-17: 0.86;
+  --pola-18: 0.87;
+  --pola-19: 0.88;
+  --pola-20: 0.89;
+  --pola-21: 0.9;
+  --pola-22: 0.91;
+  --pola-23: 0.92;
+  --pola-24: 0.93;
+  --pola-25: 0.94;
+  --pola-26: 0.95;
+  --pola-27: 0.96;
+  --pola-28: 0.97;
+  --pola-29: 0.98;
+  --pola-30: 0.99;
+  --pola-31: 0;
+  --pola-32: 0.01;
+  --pola-33: 0.02;
+  --pola-34: 0.03;
+  --pola-35: 0.04;
+  --pola-36: 0.05;
+  --pola-37: 0.06;
+  --pola-38: 0.07;
+  --pola-39: 0.08;
+  --pola-40: 0.09;
+  --pola-41: 0.1;
+  --pola-42: 0.11;
+  --pola-43: 0.12;
+  --pola-44: 0.13;
+  --pola-45: 0.14;
+  --pola-46: 0.15;
+  --pola-47: 0.16;
+  --pola-48: 0.17;
+  --pola-49: 0.18;
+}
+/* akhir pola 17569 */

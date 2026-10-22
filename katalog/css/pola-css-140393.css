@@ -1,0 +1,54 @@
+/* pola-css-140393.css · pola tampilan kata angka simbol biner */
+:root { --nomor-unit: 140393; --warna-unit: hsl(353 42% 62%); }
+.pola-css-140393 { color: var(--warna-unit); }
+  --pola-1: 0.94;
+  --pola-2: 0.95;
+  --pola-3: 0.96;
+  --pola-4: 0.97;
+  --pola-5: 0.98;
+  --pola-6: 0.99;
+  --pola-7: 0;
+  --pola-8: 0.01;
+  --pola-9: 0.02;
+  --pola-10: 0.03;
+  --pola-11: 0.04;
+  --pola-12: 0.05;
+  --pola-13: 0.06;
+  --pola-14: 0.07;
+  --pola-15: 0.08;
+  --pola-16: 0.09;
+  --pola-17: 0.1;
+  --pola-18: 0.11;
+  --pola-19: 0.12;
+  --pola-20: 0.13;
+  --pola-21: 0.14;
+  --pola-22: 0.15;
+  --pola-23: 0.16;
+  --pola-24: 0.17;
+  --pola-25: 0.18;
+  --pola-26: 0.19;
+  --pola-27: 0.2;
+  --pola-28: 0.21;
+  --pola-29: 0.22;
+  --pola-30: 0.23;
+  --pola-31: 0.24;
+  --pola-32: 0.25;
+  --pola-33: 0.26;
+  --pola-34: 0.27;
+  --pola-35: 0.28;
+  --pola-36: 0.29;
+  --pola-37: 0.3;
+  --pola-38: 0.31;
+  --pola-39: 0.32;
+  --pola-40: 0.33;
+  --pola-41: 0.34;
+  --pola-42: 0.35;
+  --pola-43: 0.36;
+  --pola-44: 0.37;
+  --pola-45: 0.38;
+  --pola-46: 0.39;
+  --pola-47: 0.4;
+  --pola-48: 0.41;
+  --pola-49: 0.42;
+}
+/* akhir pola 140393 */

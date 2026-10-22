@@ -1,0 +1,54 @@
+/* nalar-css-174112.css · pola tampilan kata angka simbol biner */
+:root { --nomor-unit: 174112; --warna-unit: hsl(232 42% 62%); }
+.nalar-css-174112 { color: var(--warna-unit); }
+  --pola-1: 0.13;
+  --pola-2: 0.14;
+  --pola-3: 0.15;
+  --pola-4: 0.16;
+  --pola-5: 0.17;
+  --pola-6: 0.18;
+  --pola-7: 0.19;
+  --pola-8: 0.2;
+  --pola-9: 0.21;
+  --pola-10: 0.22;
+  --pola-11: 0.23;
+  --pola-12: 0.24;
+  --pola-13: 0.25;
+  --pola-14: 0.26;
+  --pola-15: 0.27;
+  --pola-16: 0.28;
+  --pola-17: 0.29;
+  --pola-18: 0.3;
+  --pola-19: 0.31;
+  --pola-20: 0.32;
+  --pola-21: 0.33;
+  --pola-22: 0.34;
+  --pola-23: 0.35;
+  --pola-24: 0.36;
+  --pola-25: 0.37;
+  --pola-26: 0.38;
+  --pola-27: 0.39;
+  --pola-28: 0.4;
+  --pola-29: 0.41;
+  --pola-30: 0.42;
+  --pola-31: 0.43;
+  --pola-32: 0.44;
+  --pola-33: 0.45;
+  --pola-34: 0.46;
+  --pola-35: 0.47;
+  --pola-36: 0.48;
+  --pola-37: 0.49;
+  --pola-38: 0.5;
+  --pola-39: 0.51;
+  --pola-40: 0.52;
+  --pola-41: 0.53;
+  --pola-42: 0.54;
+  --pola-43: 0.55;
+  --pola-44: 0.56;
+  --pola-45: 0.57;
+  --pola-46: 0.58;
+  --pola-47: 0.59;
+  --pola-48: 0.6;
+  --pola-49: 0.61;
+}
+/* akhir pola 174112 */

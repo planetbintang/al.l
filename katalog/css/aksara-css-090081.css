@@ -1,0 +1,54 @@
+/* aksara-css-090081.css · pola tampilan kata angka simbol biner */
+:root { --nomor-unit: 90081; --warna-unit: hsl(81 42% 62%); }
+.aksara-css-090081 { color: var(--warna-unit); }
+  --pola-1: 0.82;
+  --pola-2: 0.83;
+  --pola-3: 0.84;
+  --pola-4: 0.85;
+  --pola-5: 0.86;
+  --pola-6: 0.87;
+  --pola-7: 0.88;
+  --pola-8: 0.89;
+  --pola-9: 0.9;
+  --pola-10: 0.91;
+  --pola-11: 0.92;
+  --pola-12: 0.93;
+  --pola-13: 0.94;
+  --pola-14: 0.95;
+  --pola-15: 0.96;
+  --pola-16: 0.97;
+  --pola-17: 0.98;
+  --pola-18: 0.99;
+  --pola-19: 0;
+  --pola-20: 0.01;
+  --pola-21: 0.02;
+  --pola-22: 0.03;
+  --pola-23: 0.04;
+  --pola-24: 0.05;
+  --pola-25: 0.06;
+  --pola-26: 0.07;
+  --pola-27: 0.08;
+  --pola-28: 0.09;
+  --pola-29: 0.1;
+  --pola-30: 0.11;
+  --pola-31: 0.12;
+  --pola-32: 0.13;
+  --pola-33: 0.14;
+  --pola-34: 0.15;
+  --pola-35: 0.16;
+  --pola-36: 0.17;
+  --pola-37: 0.18;
+  --pola-38: 0.19;
+  --pola-39: 0.2;
+  --pola-40: 0.21;
+  --pola-41: 0.22;
+  --pola-42: 0.23;
+  --pola-43: 0.24;
+  --pola-44: 0.25;
+  --pola-45: 0.26;
+  --pola-46: 0.27;
+  --pola-47: 0.28;
+  --pola-48: 0.29;
+  --pola-49: 0.3;
+}
+/* akhir pola 90081 */

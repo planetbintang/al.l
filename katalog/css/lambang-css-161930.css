@@ -1,0 +1,54 @@
+/* lambang-css-161930.css · pola tampilan kata angka simbol biner */
+:root { --nomor-unit: 161930; --warna-unit: hsl(290 42% 62%); }
+.lambang-css-161930 { color: var(--warna-unit); }
+  --pola-1: 0.31;
+  --pola-2: 0.32;
+  --pola-3: 0.33;
+  --pola-4: 0.34;
+  --pola-5: 0.35;
+  --pola-6: 0.36;
+  --pola-7: 0.37;
+  --pola-8: 0.38;
+  --pola-9: 0.39;
+  --pola-10: 0.4;
+  --pola-11: 0.41;
+  --pola-12: 0.42;
+  --pola-13: 0.43;
+  --pola-14: 0.44;
+  --pola-15: 0.45;
+  --pola-16: 0.46;
+  --pola-17: 0.47;
+  --pola-18: 0.48;
+  --pola-19: 0.49;
+  --pola-20: 0.5;
+  --pola-21: 0.51;
+  --pola-22: 0.52;
+  --pola-23: 0.53;
+  --pola-24: 0.54;
+  --pola-25: 0.55;
+  --pola-26: 0.56;
+  --pola-27: 0.57;
+  --pola-28: 0.58;
+  --pola-29: 0.59;
+  --pola-30: 0.6;
+  --pola-31: 0.61;
+  --pola-32: 0.62;
+  --pola-33: 0.63;
+  --pola-34: 0.64;
+  --pola-35: 0.65;
+  --pola-36: 0.66;
+  --pola-37: 0.67;
+  --pola-38: 0.68;
+  --pola-39: 0.69;
+  --pola-40: 0.7;
+  --pola-41: 0.71;
+  --pola-42: 0.72;
+  --pola-43: 0.73;
+  --pola-44: 0.74;
+  --pola-45: 0.75;
+  --pola-46: 0.76;
+  --pola-47: 0.77;
+  --pola-48: 0.78;
+  --pola-49: 0.79;
+}
+/* akhir pola 161930 */

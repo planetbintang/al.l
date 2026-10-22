@@ -1,0 +1,54 @@
+/* jejak-css-118788.css · pola tampilan kata angka simbol biner */
+:root { --nomor-unit: 118788; --warna-unit: hsl(348 42% 62%); }
+.jejak-css-118788 { color: var(--warna-unit); }
+  --pola-1: 0.89;
+  --pola-2: 0.9;
+  --pola-3: 0.91;
+  --pola-4: 0.92;
+  --pola-5: 0.93;
+  --pola-6: 0.94;
+  --pola-7: 0.95;
+  --pola-8: 0.96;
+  --pola-9: 0.97;
+  --pola-10: 0.98;
+  --pola-11: 0.99;
+  --pola-12: 0;
+  --pola-13: 0.01;
+  --pola-14: 0.02;
+  --pola-15: 0.03;
+  --pola-16: 0.04;
+  --pola-17: 0.05;
+  --pola-18: 0.06;
+  --pola-19: 0.07;
+  --pola-20: 0.08;
+  --pola-21: 0.09;
+  --pola-22: 0.1;
+  --pola-23: 0.11;
+  --pola-24: 0.12;
+  --pola-25: 0.13;
+  --pola-26: 0.14;
+  --pola-27: 0.15;
+  --pola-28: 0.16;
+  --pola-29: 0.17;
+  --pola-30: 0.18;
+  --pola-31: 0.19;
+  --pola-32: 0.2;
+  --pola-33: 0.21;
+  --pola-34: 0.22;
+  --pola-35: 0.23;
+  --pola-36: 0.24;
+  --pola-37: 0.25;
+  --pola-38: 0.26;
+  --pola-39: 0.27;
+  --pola-40: 0.28;
+  --pola-41: 0.29;
+  --pola-42: 0.3;
+  --pola-43: 0.31;
+  --pola-44: 0.32;
+  --pola-45: 0.33;
+  --pola-46: 0.34;
+  --pola-47: 0.35;
+  --pola-48: 0.36;
+  --pola-49: 0.37;
+}
+/* akhir pola 118788 */
