@@ -1,0 +1,14 @@
+{
+  "versi": 1,
+  "nama": "Katalog Domain Dunia",
+  "folder": "data.media",
+  "jumlahBerkasTarget": 500000,
+  "entriPerBerkas": 950,
+  "jumlahEntriTarget": 475000000,
+  "format": "media-jsonl",
+  "status": ["aktif", "tidak aktif"],
+  "mode": "virtual-dengan-shard",
+  "shardContoh": "domain-000001.media",
+  "catatan": "Katalog produksi dibuat oleh pembangkit-data-media.mjs pada storage terpisah. Webview membaca shard secara bertahap dan tidak memuat seluruh katalog ke memori.",
+  "diperbarui": "2026-10-22"
+}

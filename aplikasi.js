@@ -2,6 +2,7 @@
 const keadaan = {
   sumber: [],
   token: [],
+  media: { semua: [], tampil: [], halaman: 1, perHalaman: 25 },
   sesi: Number(localStorage.getItem('nalar-sesi') || 0) + 1,
   tema: localStorage.getItem('nalar-tema') || 'gelap'
 };
@@ -131,6 +132,59 @@ async function muatManifestNyata() {
   }
 }
 
+function aman(teks) {
+  return String(teks).replace(/[&<>"']/g, (karakter) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#039;' }[karakter]));
+}
+
+function gambarMedia() {
+  const media = keadaan.media;
+  const awal = (media.halaman - 1) * media.perHalaman;
+  const halaman = media.tampil.slice(awal, awal + media.perHalaman);
+  $('#daftarDomain').innerHTML = halaman.length ? halaman.map((item, indeks) => {
+    const kelas = item.status === 'aktif' ? '' : ' tidak-aktif';
+    return `<tr><td>${formatAngka(awal + indeks + 1)}</td><td class="media-domain">${aman(item.domain)}</td><td><span class="media-status${kelas}">${aman(item.status)}</span></td><td>${formatAngka(item.shard || 1)}</td><td>${aman(item.sumber || 'katalog')}</td></tr>`;
+  }).join('') : '<tr><td colspan="5" class="media-kosong">Tidak ada domain yang cocok.</td></tr>';
+  const totalHalaman = Math.max(1, Math.ceil(media.tampil.length / media.perHalaman));
+  $('#halamanMedia').textContent = `Halaman ${media.halaman} / ${totalHalaman}`;
+  $('#mediaSebelumnya').disabled = media.halaman <= 1;
+  $('#mediaBerikutnya').disabled = media.halaman >= totalHalaman;
+  $('#ringkasanMedia').textContent = `${formatAngka(media.tampil.length)} domain tampil · ${formatAngka(media.semua.length)} domain di shard aktif`;
+}
+
+function saringMedia() {
+  const cari = $('#cariDomain').value.trim().toLocaleLowerCase('id-ID');
+  const status = $('#filterDomain').value;
+  keadaan.media.tampil = keadaan.media.semua.filter((item) => (!cari || item.domain.toLocaleLowerCase('id-ID').includes(cari)) && (status === 'semua' || item.status === status));
+  keadaan.media.halaman = 1;
+  gambarMedia();
+}
+
+async function muatDataMedia() {
+  const status = $('#statusMedia');
+  try {
+    const jawaban = await fetch('data.media/domain-000001.media', { cache: 'no-store' });
+    if (!jawaban.ok) throw new Error('shard tidak tersedia');
+    keadaan.media.semua = (await jawaban.text()).split(/\r?\n/).filter(Boolean).map((baris) => JSON.parse(baris));
+    keadaan.media.tampil = keadaan.media.semua;
+    $('#shardMedia').textContent = 'SHARD 000001 · JSONL';
+    status.textContent = 'SHARD AKTIF';
+    gambarMedia();
+  } catch (kesalahan) {
+    status.textContent = 'SHARD TIDAK TERSEDIA';
+    $('#daftarDomain').innerHTML = '<tr><td colspan="5" class="media-kosong">Shard belum dapat dibaca. Jalankan server statis lalu muat ulang.</td></tr>';
+    $('#ringkasanMedia').textContent = 'Data media belum tersedia di sesi ini';
+  }
+}
+
+function siapkanMedia() {
+  $('#cariDomain').addEventListener('input', saringMedia);
+  $('#filterDomain').addEventListener('change', saringMedia);
+  $('#muatUlangMedia').addEventListener('click', muatDataMedia);
+  $('#mediaSebelumnya').addEventListener('click', () => { if (keadaan.media.halaman > 1) { keadaan.media.halaman -= 1; gambarMedia(); } });
+  $('#mediaBerikutnya').addEventListener('click', () => { const maksimum = Math.ceil(keadaan.media.tampil.length / keadaan.media.perHalaman); if (keadaan.media.halaman < maksimum) { keadaan.media.halaman += 1; gambarMedia(); } });
+  muatDataMedia();
+}
+
 function siapkanNavigasi() {
   $$('.tautan').forEach((tautan) => tautan.addEventListener('click', () => {
     $$('.tautan').forEach((item) => item.classList.remove('aktif'));
@@ -156,6 +210,7 @@ function siapkan() {
   muatManifestNyata();
   siapkanNavigasi();
   siapkanSeret();
+  siapkanMedia();
   $('#pertanyaan').addEventListener('input', segarkanHitungan);
   $('#tombolTema').addEventListener('click', () => { keadaan.tema = keadaan.tema === 'gelap' ? 'terang' : 'gelap'; localStorage.setItem('nalar-tema', keadaan.tema); terapkanTema(); });
   $('#tombolContoh').addEventListener('click', muatContoh);
