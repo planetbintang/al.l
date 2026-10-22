@@ -51,22 +51,24 @@
     </section>
 
     <section class="papan-ringkasan" aria-label="Ringkasan sistem">
-      <div class="ringkasan-item"><span class="label">KAPASITAS VIRTUAL</span><strong id="statKapasitas">750.000</strong><small>unit kode terpetakan</small></div>
+      <div class="ringkasan-item"><span class="label">INDEKS DOMAIN</span><strong id="statKapasitas">400 jt</strong><small>domain virtual dari data.media</small></div>
       <div class="ringkasan-item"><span class="label">BAHASA</span><strong>id-ID</strong><small>kata, angka, simbol</small></div>
       <div class="ringkasan-item"><span class="label">SUMBER AKTIF</span><strong id="statSumber">0</strong><small>dokumen .nz terbaca</small></div>
       <div class="ringkasan-item"><span class="label">STATUS</span><strong class="warna-hijau">Siap</strong><small>mesin lokal terlindungi</small></div>
     </section>
 
     <section id="ruang" class="ruang kerja-panel">
-      <div class="bagian-kepala"><div><p class="eyebrow">01 / RUANG NALAR</p><h2>Tanyakan pada teks.</h2></div><span class="chip">PENCARIAN SEMANTIK LOKAL</span></div>
+      <div class="bagian-kepala"><div><p class="eyebrow">01 / RUANG NALAR</p><h2>Prompt chat pengetahuan.</h2></div><span class="chip">AI LOKAL / SUMBERKODE</span></div>
       <div class="nalar-grid">
         <div class="kolom-input">
-          <label for="pertanyaan">Pertanyaan atau instruksi</label>
-          <textarea id="pertanyaan" rows="7" placeholder="Contoh: jelaskan hubungan antara kata, pola, dan pengetahuan...">Apa yang dapat dibaca dari pola teks?</textarea>
+          <label for="pertanyaan">Prompt chat</label>
+          <textarea id="pertanyaan" rows="7" placeholder="Tanyakan isi sumberkode, data.media, katalog, atau pola teks…">Jelaskan hubungan indeks domain data.media dengan sistem pengetahuan Nalar Aksara.</textarea>
+          <div class="prompt-cepat"><button type="button" data-prompt="Ringkas seluruh pengetahuan yang terpetakan dari sumberkode.">Ringkas sumber</button><button type="button" data-prompt="Bagaimana indeks 400 juta domain diproses tanpa memuat semuanya?">Jelaskan indeks</button><button type="button" data-prompt="Apa saja kemampuan utama sistem ini?"><span>⌘</span> Kemampuan</button></div>
           <div class="baris-aksi"><button class="tombol tombol-utama" id="tombolNalar" type="button">Jalankan nalar <span>→</span></button><span class="hitung" id="hitungKarakter">0 karakter</span></div>
         </div>
         <div class="kolom-hasil" aria-live="polite">
-          <div class="hasil-kepala"><span class="status-dot"></span><span id="statusNalar">Menunggu pertanyaan</span><span class="hasil-waktu" id="waktuNalar">—</span></div>
+          <div class="hasil-kepala"><span class="status-dot"></span><span id="statusNalar">Siap membaca sumber</span><span class="hasil-waktu" id="waktuNalar">—</span></div>
+          <div id="chatRiwayat" class="chat-riwayat" aria-label="Riwayat prompt"></div>
           <div id="hasilNalar" class="hasil-isi"><p class="placeholder">Jawaban berbasis pengetahuan yang Anda muat akan tampil di sini. Sistem tidak mengirim teks ke luar peramban.</p></div>
           <div class="hasil-kaki"><span>MODEL / NALAR-AKSARA-LOCAL</span><button id="salinHasil" type="button">Salin jawaban</button></div>
         </div>
@@ -89,9 +91,9 @@
     <section id="arsip" class="arsip-panel"><div><p class="eyebrow">05 / ARSIP</p><h2>Jejak kerja Anda.</h2><p class="panel-intro">Ringkasan aktivitas disimpan pada peramban ini. Tidak ada akun dan tidak ada pengiriman otomatis.</p></div><div class="arsip-stat"><span>SESI SAAT INI</span><strong id="statSesi">01</strong><small id="waktuSesi">baru dimulai</small></div><button class="tombol tombol-hening" id="hapusArsip" type="button">Bersihkan sesi</button></section>
     <section id="data-media" class="media-panel" aria-labelledby="judul-data-media">
       <div class="bagian-kepala"><div><p class="eyebrow">06 / DATA.MEDIA</p><h2 id="judul-data-media">Webview katalog domain.</h2></div><span class="chip chip-hijau" id="statusMedia">MEMUAT SHARD</span></div>
-      <p class="panel-intro media-intro">Tampilan utama seluruh katalog dengan pembacaan bertahap. Browser hanya memuat 950 record shard aktif, bukan ratusan juta baris sekaligus.</p>
+      <p class="panel-intro media-intro">Indeks utama berisi <strong>400.000.000 domain virtual</strong> yang diturunkan dari nama domain pada data `.media`. Browser hanya memuat 950 record shard aktif dan membuat baris lain saat diminta, bukan memuat ratusan juta baris sekaligus.</p>
       <div class="media-toolbar"><label class="media-search"><span>CARI DOMAIN</span><input id="cariDomain" type="search" placeholder="contoh: google.com" autocomplete="off"></label><label class="media-filter"><span>STATUS</span><select id="filterDomain"><option value="semua">Semua</option><option value="aktif">Aktif</option><option value="tidak aktif">Tidak aktif</option></select></label><button class="tombol tombol-hening" id="muatUlangMedia" type="button">Muat ulang</button></div>
-      <div class="media-meta"><span id="ringkasanMedia">Menyiapkan indeks…</span><span id="shardMedia">SHARD —</span></div>
+      <div class="media-meta"><span id="ringkasanMedia">Menyiapkan indeks 400 juta…</span><span id="shardMedia">SHARD —</span></div>
       <div class="media-table-wrap"><table class="media-table"><thead><tr><th>NO.</th><th>DOMAIN</th><th>STATUS</th><th>SHARD</th><th>SUMBER</th></tr></thead><tbody id="daftarDomain"><tr><td colspan="5" class="media-kosong">Memuat data.media/domain-000001.media…</td></tr></tbody></table></div>
       <div class="media-pages"><button class="tombol tombol-hening" id="mediaSebelumnya" type="button">← Sebelumnya</button><span id="halamanMedia">Halaman 1</span><button class="tombol tombol-hening" id="mediaBerikutnya" type="button">Berikutnya →</button></div>
     </section>

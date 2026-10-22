@@ -1,0 +1,25 @@
+{
+  "versi": 1,
+  "nama": "Indeks Pengetahuan Sumberkode",
+  "cakupan": ["sumberkode", "data.media", "aplikasi", "tampilan", "katalog"],
+  "tanpaKorpus": true,
+  "poin": [
+    {"topik":"sistem teks","isi":"Nalar Aksara membaca kata, angka, simbol, biner, dan berkas .nz secara lokal."},
+    {"topik":"katalog kode","isi":"Katalog HTML, CSS, dan JavaScript memiliki kapasitas 750000 unit dan manifest nyata."},
+    {"topik":"indeks domain","isi":"Data .media memakai shard JSONL; antarmuka menampilkan indeks domain virtual 400000000 entri tanpa memuat semuanya sekaligus."},
+    {"topik":"privasi","isi":"Pembacaan sumber berlangsung di peramban dan tidak mengirim isi pengetahuan ke layanan eksternal."},
+    {"topik":"sumber","isi":"Sumber yang terpetakan meliputi README repositori, folder sumberkode/index.html.app, manifest data.media, shard domain, serta berkas aplikasi utama."}
+  ],
+  "berkas": [
+    "README.md",
+    "index.html",
+    "gaya.css",
+    "aplikasi.js",
+    "sumberkode/index.html.app/README.md",
+    "data.media/README.md",
+    "data.media/manifest.json",
+    "data.media/bulk-manifest.json",
+    "data.media/domain-000001.media",
+    "katalog/manifest.json"
+  ]
+}

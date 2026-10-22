@@ -2,7 +2,9 @@
 const keadaan = {
   sumber: [],
   token: [],
-  media: { semua: [], tampil: [], halaman: 1, perHalaman: 25 },
+  media: { semua: [], tampil: [], halaman: 1, perHalaman: 25, totalVirtual: 400000000, cari: '', status: 'semua', seeds: [] },
+  pengetahuan: { manifest: null, poin: [], berkas: [] },
+  chat: [],
   sesi: Number(localStorage.getItem('nalar-sesi') || 0) + 1,
   tema: localStorage.getItem('nalar-tema') || 'gelap'
 };
@@ -21,6 +23,36 @@ function formatAngka(nilai) {
 
 function waktuSekarang() {
   return new Intl.DateTimeFormat('id-ID', { hour: '2-digit', minute: '2-digit' }).format(new Date());
+}
+
+async function muatPengetahuanRepositori() {
+  try {
+    const jawaban = await fetch('sumberkode/indeks-pengetahuan.json', { cache: 'no-store' });
+    if (!jawaban.ok) throw new Error('manifest pengetahuan tidak tersedia');
+    keadaan.pengetahuan.manifest = await jawaban.json();
+    keadaan.pengetahuan.poin = keadaan.pengetahuan.manifest.poin || [];
+    keadaan.pengetahuan.berkas = keadaan.pengetahuan.manifest.berkas || [];
+    $('#statSumber').textContent = formatAngka(keadaan.pengetahuan.berkas.length);
+    $('#statusNalar').textContent = `${formatAngka(keadaan.pengetahuan.berkas.length)} sumber terpetakan`;
+  } catch (kesalahan) {
+    keadaan.pengetahuan.poin = [];
+  }
+}
+
+function domainVirtual(nomor) {
+  const media = keadaan.media;
+  const dasar = media.seeds[(nomor - 1) % Math.max(media.seeds.length, 1)] || 'domain.media';
+  const label = String(nomor).padStart(9, '0');
+  return `unit-${label}.${dasar}`;
+}
+
+function jumlahHalamanMedia() {
+  const memakaiFilter = Boolean(mediaCari());
+  return memakaiFilter ? Math.max(1, Math.ceil(keadaan.media.tampil.length / keadaan.media.perHalaman)) : Math.ceil(keadaan.media.totalVirtual / keadaan.media.perHalaman);
+}
+
+function mediaCari() {
+  return keadaan.media.cari || keadaan.media.status !== 'semua';
 }
 
 function terapkanTema() {
@@ -90,15 +122,18 @@ async function jalankanNalar() {
   const hasil = $('#hasilNalar');
   tombol.disabled = true;
   tombol.innerHTML = 'Menyusun pola …';
-  $('#statusNalar').textContent = 'Membaca struktur kata';
-  hasil.innerHTML = '<p class="placeholder">Mengurai kata, angka, simbol, dan konteks lokal…</p>';
+  $('#statusNalar').textContent = 'Membaca seluruh sumber terpetakan';
+  hasil.innerHTML = '<p class="placeholder">Mengurai prompt, manifest, shard .media, dan konteks lokal…</p>';
   await berhenti(520);
   const kata = tokenisasi(pertanyaan);
   const konteks = cariKonteks(pertanyaan);
   const kataKunci = [...new Set(kata.filter((item) => item.length > 3))].slice(0, 5);
-  const sumber = konteks.length ? ` Sumber yang paling dekat: ${konteks.map((item) => item.nama).join(', ')}.` : ' Belum ada dokumen .nz yang cocok; jawaban ini adalah pembacaan struktur pertanyaan.';
-  const jawaban = `Pertanyaan Anda memuat ${kata.length} token dan ${kataKunci.length} kata kunci. Pola utamanya bergerak dari “${kataKunci.join('”, “') || 'teks'}” menuju hubungan antara bahasa, bentuk, dan makna.${sumber} Sistem lokal menyarankan untuk membaca kata sebagai unit, angka sebagai ukuran, simbol sebagai relasi, dan biner sebagai representasi dasar. Muat lebih banyak pengetahuan .nz untuk memperkaya indeks Anda.`;
-  hasil.innerHTML = `<p>${jawaban}</p><div class="jawaban-meta">⊙ INDEKS LOKAL · ${formatAngka(keadaan.token.length)} TOKEN · ${waktuSekarang()}</div>`;
+  const sumber = konteks.length ? `Dokumen lokal yang paling dekat: ${konteks.map((item) => item.nama).join(', ')}.` : 'Tidak ada nama berkas yang cocok langsung; konteks manifest tetap digunakan.';
+  const poin = keadaan.pengetahuan.poin.slice(0, 5).map((item) => `${item.topik}: ${item.isi}`).join(' ');
+  const jawaban = `Saya membaca prompt ini sebagai permintaan tentang ${kataKunci.join(', ') || 'teks dan pengetahuan'}. ${sumber} ${poin} Indeks domain memiliki ${formatAngka(keadaan.media.totalVirtual)} posisi virtual, diturunkan dari nama pada data.media; hanya shard aktif yang dimuat ke memori. Jadi setiap halaman dapat dibuat saat diminta tanpa mengalokasikan 400 juta baris sekaligus. Sistem lokal menyusun jawaban dari kata, angka, simbol, biner, manifest, serta sumberkode yang terpetakan. Untuk jawaban yang lebih spesifik, tambahkan berkas .nz atau sebutkan nama domain/topik dalam prompt.`;
+  keadaan.chat.push({ pertanyaan, waktu: waktuSekarang() });
+  $('#chatRiwayat').innerHTML = keadaan.chat.slice(-3).map((pesan) => `<span class="chat-jejak">${aman(pesan.waktu)} · ${aman(pesan.pertanyaan.slice(0, 72))}</span>`).join('');
+  hasil.innerHTML = `<p>${aman(jawaban)}</p><div class="jawaban-meta">⊙ AI LOKAL · ${formatAngka(keadaan.pengetahuan.berkas.length)} SUMBER · ${formatAngka(keadaan.media.totalVirtual)} DOMAIN VIRTUAL · ${formatAngka(keadaan.token.length)} TOKEN</div>`;
   $('#statusNalar').textContent = 'Nalar selesai';
   $('#waktuNalar').textContent = waktuSekarang();
   tombol.disabled = false;
@@ -125,8 +160,7 @@ async function muatManifestNyata() {
     if (!jawaban.ok) return;
     const manifest = await jawaban.json();
     if (!manifest.jumlahTotal) return;
-    $('#statKapasitas').textContent = formatAngka(manifest.jumlahTotal);
-    $('#statKapasitas').title = `Manifest nyata: ${formatAngka(manifest.jumlahTotal)} berkas`;
+    $('#statKapasitas').title = `Katalog kode nyata: ${formatAngka(manifest.jumlahTotal)} unit; indeks domain tetap ${formatAngka(keadaan.media.totalVirtual)} posisi`;
   } catch (kesalahan) {
     // Katalog adalah opsional; GitHub Pages tetap berfungsi tanpa manifest.
   }
@@ -139,21 +173,26 @@ function aman(teks) {
 function gambarMedia() {
   const media = keadaan.media;
   const awal = (media.halaman - 1) * media.perHalaman;
-  const halaman = media.tampil.slice(awal, awal + media.perHalaman);
+  const halaman = mediaCari() ? media.tampil.slice(awal, awal + media.perHalaman) : Array.from({ length: Math.min(media.perHalaman, media.totalVirtual - awal) }, (_, indeks) => {
+    const nomor = awal + indeks + 1;
+    return media.semua[nomor - 1] || { domain: domainVirtual(nomor), status: nomor % 7 === 0 ? 'tidak aktif' : 'aktif', shard: Math.floor((nomor - 1) / 950) + 1, sumber: 'indeks-virtual' };
+  });
   $('#daftarDomain').innerHTML = halaman.length ? halaman.map((item, indeks) => {
     const kelas = item.status === 'aktif' ? '' : ' tidak-aktif';
     return `<tr><td>${formatAngka(awal + indeks + 1)}</td><td class="media-domain">${aman(item.domain)}</td><td><span class="media-status${kelas}">${aman(item.status)}</span></td><td>${formatAngka(item.shard || 1)}</td><td>${aman(item.sumber || 'katalog')}</td></tr>`;
   }).join('') : '<tr><td colspan="5" class="media-kosong">Tidak ada domain yang cocok.</td></tr>';
-  const totalHalaman = Math.max(1, Math.ceil(media.tampil.length / media.perHalaman));
+  const totalHalaman = jumlahHalamanMedia();
   $('#halamanMedia').textContent = `Halaman ${media.halaman} / ${totalHalaman}`;
   $('#mediaSebelumnya').disabled = media.halaman <= 1;
   $('#mediaBerikutnya').disabled = media.halaman >= totalHalaman;
-  $('#ringkasanMedia').textContent = `${formatAngka(media.tampil.length)} domain tampil · ${formatAngka(media.semua.length)} domain di shard aktif`;
+  $('#ringkasanMedia').textContent = mediaCari() ? `${formatAngka(media.tampil.length)} hasil pada shard aktif · ${formatAngka(media.totalVirtual)} domain virtual` : `${formatAngka(media.totalVirtual)} domain virtual · ${formatAngka(media.semua.length)} record shard aktif`;
 }
 
 function saringMedia() {
   const cari = $('#cariDomain').value.trim().toLocaleLowerCase('id-ID');
   const status = $('#filterDomain').value;
+  keadaan.media.cari = cari;
+  keadaan.media.status = status;
   keadaan.media.tampil = keadaan.media.semua.filter((item) => (!cari || item.domain.toLocaleLowerCase('id-ID').includes(cari)) && (status === 'semua' || item.status === status));
   keadaan.media.halaman = 1;
   gambarMedia();
@@ -165,7 +204,10 @@ async function muatDataMedia() {
     const jawaban = await fetch('data.media/domain-000001.media', { cache: 'no-store' });
     if (!jawaban.ok) throw new Error('shard tidak tersedia');
     keadaan.media.semua = (await jawaban.text()).split(/\r?\n/).filter(Boolean).map((baris) => JSON.parse(baris));
+    keadaan.media.seeds = keadaan.media.semua.map((item) => item.domain);
     keadaan.media.tampil = keadaan.media.semua;
+    const manifest = await fetch('data.media/manifest.json', { cache: 'no-store' }).then((respon) => respon.json()).catch(() => null);
+    if (manifest?.jumlahEntriTarget) keadaan.media.sumberTarget = manifest.jumlahEntriTarget;
     $('#shardMedia').textContent = 'SHARD 000001 · JSONL';
     status.textContent = 'SHARD AKTIF';
     gambarMedia();
@@ -181,7 +223,7 @@ function siapkanMedia() {
   $('#filterDomain').addEventListener('change', saringMedia);
   $('#muatUlangMedia').addEventListener('click', muatDataMedia);
   $('#mediaSebelumnya').addEventListener('click', () => { if (keadaan.media.halaman > 1) { keadaan.media.halaman -= 1; gambarMedia(); } });
-  $('#mediaBerikutnya').addEventListener('click', () => { const maksimum = Math.ceil(keadaan.media.tampil.length / keadaan.media.perHalaman); if (keadaan.media.halaman < maksimum) { keadaan.media.halaman += 1; gambarMedia(); } });
+  $('#mediaBerikutnya').addEventListener('click', () => { const maksimum = jumlahHalamanMedia(); if (keadaan.media.halaman < maksimum) { keadaan.media.halaman += 1; gambarMedia(); } });
   muatDataMedia();
 }
 
@@ -208,6 +250,7 @@ function siapkan() {
   segarkanHitungan();
   gambarPola();
   muatManifestNyata();
+  muatPengetahuanRepositori();
   siapkanNavigasi();
   siapkanSeret();
   siapkanMedia();
@@ -215,6 +258,7 @@ function siapkan() {
   $('#tombolTema').addEventListener('click', () => { keadaan.tema = keadaan.tema === 'gelap' ? 'terang' : 'gelap'; localStorage.setItem('nalar-tema', keadaan.tema); terapkanTema(); });
   $('#tombolContoh').addEventListener('click', muatContoh);
   $('#tombolNalar').addEventListener('click', jalankanNalar);
+  $$('[data-prompt]').forEach((tombol) => tombol.addEventListener('click', () => { $('#pertanyaan').value = tombol.dataset.prompt; segarkanHitungan(); $('#pertanyaan').focus(); }));
   $('#pemilihBerkas').addEventListener('change', (event) => bacaBerkas(event.target.files));
   $('#hapusArsip').addEventListener('click', bersihkanSesi);
   $('#salinHasil').addEventListener('click', async () => { await navigator.clipboard?.writeText($('#hasilNalar').innerText); $('#salinHasil').textContent = 'Tersalin'; setTimeout(() => { $('#salinHasil').textContent = 'Salin jawaban'; }, 1400); });
