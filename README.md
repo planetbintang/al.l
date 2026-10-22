@@ -18,7 +18,21 @@ Gunakan panel **Pengetahuan** untuk memilih satu atau beberapa berkas `.nz`. Isi
 
 ## Katalog 750.000 unit
 
-Permintaan 250.000 HTML + 250.000 CSS + 250.000 JavaScript diwujudkan sebagai katalog virtual pada `aplikasi.js` melalui `NalarAksara.katalogVirtual(jenis, nomor)`. Pendekatan ini menjaga situs dapat dibangun dan disajikan GitHub Pages tanpa membuat 750.000 inode, menghabiskan ruang penyimpanan, atau memperlambat Git. Setiap unit memiliki nomor, nama berbahasa Indonesia, pola teks, dan batas minimal 51 baris sebagai spesifikasi generator; berkas fisik hanya perlu dibuat saat benar-benar dipakai.
+Pembangkit berkas nyata tersedia di `pembangkit-berkas.mjs`. Ia membuat berkas HTML, CSS, dan JavaScript dengan sedikitnya 51 baris per berkas, nama dasar berbahasa Indonesia, pola teks/angka/simbol/biner, dan `manifest.json` yang diproses sebagai katalog.
+
+Untuk uji kecil:
+
+```bash
+node pembangkit-berkas.mjs --jumlah 10 --tujuan katalog-uji
+```
+
+Mode penuh memerlukan persetujuan eksplisit dan tidak dijalankan otomatis:
+
+```bash
+node pembangkit-berkas.mjs --penuh --konfirmasi-750000 --tujuan katalog
+```
+
+Mode penuh menghasilkan 750.000 berkas nyata dan dapat memerlukan ruang penyimpanan yang sangat besar. Jangan commit folder `katalog/` ke GitHub Pages tanpa memastikan kapasitas penyimpanan dan batas repositori. Aplikasi utama tetap memiliki katalog virtual `NalarAksara.katalogVirtual(jenis, nomor)` agar tampilan dapat memproses pola tanpa memuat seluruh berkas ke memori.
 
 ## Publikasi
 

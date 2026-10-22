@@ -118,6 +118,19 @@ function bersihkanSesi() {
   gambarPola();
 }
 
+async function muatManifestNyata() {
+  try {
+    const jawaban = await fetch('katalog/manifest.json', { cache: 'no-store' });
+    if (!jawaban.ok) return;
+    const manifest = await jawaban.json();
+    if (!manifest.jumlahTotal) return;
+    $('#statKapasitas').textContent = formatAngka(manifest.jumlahTotal);
+    $('#statKapasitas').title = `Manifest nyata: ${formatAngka(manifest.jumlahTotal)} berkas`;
+  } catch (kesalahan) {
+    // Katalog adalah opsional; GitHub Pages tetap berfungsi tanpa manifest.
+  }
+}
+
 function siapkanNavigasi() {
   $$('.tautan').forEach((tautan) => tautan.addEventListener('click', () => {
     $$('.tautan').forEach((item) => item.classList.remove('aktif'));
@@ -140,6 +153,7 @@ function siapkan() {
   terapkanTema();
   segarkanHitungan();
   gambarPola();
+  muatManifestNyata();
   siapkanNavigasi();
   siapkanSeret();
   $('#pertanyaan').addEventListener('input', segarkanHitungan);
