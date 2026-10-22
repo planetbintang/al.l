@@ -1,6 +1,6 @@
 # data.media — Katalog Domain Dunia
 
-Folder ini memakai format **JSONL**. Setiap shard `domain-XXXXXX.jsonl` berisi **950 record**, satu record per baris:
+Folder ini memakai format **.media (JSONL)**. Setiap shard `domain-XXXXXX.media` berisi **950 record**, satu record per baris:
 
 ```json
 {"domain":"google.com","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":1}

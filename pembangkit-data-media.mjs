@@ -47,7 +47,7 @@ async function loadSeeds() {
 }
 
 async function buatShard(folder, seeds, file) {
-  const tujuan = join(folder, `domain-${pad(file)}.jsonl`);
+  const tujuan = join(folder, `domain-${pad(file)}.media`);
   const baris = [];
   for (let row = 1; row <= PER_FILE; row += 1) {
     baris.push(record(domainUntuk(seeds, file, row - 1), file, row));
@@ -73,10 +73,10 @@ async function utama() {
     if (file === mulaiDari || file % 100 === 0 || file === akhir) console.log(`data.media: ${file}/${jumlah}`);
   }
   const metadata = {
-    versi: 1, format: 'jsonl', jumlahBerkasTarget: TARGET_FILES,
+    versi: 1, format: 'media-jsonl', jumlahBerkasTarget: TARGET_FILES,
     berkasDibuatDalamPerintahIni: Math.max(0, akhir - mulaiDari + 1),
     entriPerBerkas: PER_FILE, status: ['aktif', 'tidak aktif'],
-    polaNama: 'domain-XXXXXX.jsonl', diperbarui: new Date().toISOString()
+    polaNama: 'domain-XXXXXX.media', diperbarui: new Date().toISOString()
   };
   await writeFile(join(folder, 'manifest-generated.json'), `${JSON.stringify(metadata, null, 2)}\n`, 'utf8');
   console.log(`Selesai dalam ${Math.round(performance.now() - mulai)} ms.`);

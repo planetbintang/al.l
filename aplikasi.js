@@ -162,7 +162,7 @@ function saringMedia() {
 async function muatDataMedia() {
   const status = $('#statusMedia');
   try {
-    const jawaban = await fetch('data.media/domain-000001.jsonl', { cache: 'no-store' });
+    const jawaban = await fetch('data.media/domain-000001.media', { cache: 'no-store' });
     if (!jawaban.ok) throw new Error('shard tidak tersedia');
     keadaan.media.semua = (await jawaban.text()).split(/\r?\n/).filter(Boolean).map((baris) => JSON.parse(baris));
     keadaan.media.tampil = keadaan.media.semua;

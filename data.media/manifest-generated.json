@@ -1,6 +1,6 @@
 {
   "versi": 1,
-  "format": "jsonl",
+  "format": "media-jsonl",
   "jumlahBerkasTarget": 500000,
   "berkasDibuatDalamPerintahIni": 1,
   "entriPerBerkas": 950,
@@ -8,6 +8,6 @@
     "aktif",
     "tidak aktif"
   ],
-  "polaNama": "domain-XXXXXX.jsonl",
+  "polaNama": "domain-XXXXXX.media",
   "diperbarui": "2026-10-22T15:16:29.503Z"
 }
