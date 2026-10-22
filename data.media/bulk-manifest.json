@@ -1,0 +1,9 @@
+{
+  "format": "domain-list-media",
+  "folder": "data.media/bulk",
+  "jumlahBerkas": 500000,
+  "namaBerkas": "domain-XXXXXX.media",
+  "entriPerBerkas": 950,
+  "sumberNamaDomain": "data.media/domain-seeds.txt",
+  "catatan": "Setiap file berisi 950 nama domain, satu per baris."
+}
