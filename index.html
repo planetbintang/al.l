@@ -25,6 +25,7 @@
       <a class="tautan" href="#pengetahuan" data-bagian="pengetahuan">Pengetahuan</a>
       <a class="tautan" href="#pola" data-bagian="pola">Pola Data</a>
       <a class="tautan" href="#arsip" data-bagian="arsip">Arsip</a>
+      <a class="tautan" href="#data-media" data-bagian="data-media">Data Media</a>
     </nav>
     <button class="tombol tombol-kecil tombol-tema" id="tombolTema" type="button" aria-label="Ganti tema">◐ <span>Tema</span></button>
   </header>
@@ -86,6 +87,14 @@
     <section id="pola" class="pola-panel"><div class="bagian-kepala"><div><p class="eyebrow">04 / POLA DATA</p><h2>Struktur yang terlihat.</h2></div><div class="pilihan"><button class="pilihan-aktif" data-pola="batang" type="button">Frekuensi</button><button data-pola="biner" type="button">Biner</button></div></div><div class="pola-layout"><div class="grafik-batang" id="grafikPola"></div><div class="pola-catatan"><p class="angka-besar" id="jumlahToken">0</p><p>token terindeks</p><div class="garis-nilai"><span>Keunikan kata</span><strong id="keunikanKata">0%</strong></div><div class="garis-nilai"><span>Ritme simbol</span><strong id="ritmeSimbol">0%</strong></div><code id="polaBiner">01001011 01000001</code></div></div></section>
 
     <section id="arsip" class="arsip-panel"><div><p class="eyebrow">05 / ARSIP</p><h2>Jejak kerja Anda.</h2><p class="panel-intro">Ringkasan aktivitas disimpan pada peramban ini. Tidak ada akun dan tidak ada pengiriman otomatis.</p></div><div class="arsip-stat"><span>SESI SAAT INI</span><strong id="statSesi">01</strong><small id="waktuSesi">baru dimulai</small></div><button class="tombol tombol-hening" id="hapusArsip" type="button">Bersihkan sesi</button></section>
+    <section id="data-media" class="media-panel" aria-labelledby="judul-data-media">
+      <div class="bagian-kepala"><div><p class="eyebrow">06 / DATA.MEDIA</p><h2 id="judul-data-media">Webview katalog domain.</h2></div><span class="chip chip-hijau" id="statusMedia">MEMUAT SHARD</span></div>
+      <p class="panel-intro media-intro">Tampilan utama seluruh katalog dengan pembacaan bertahap. Browser hanya memuat 950 record shard aktif, bukan ratusan juta baris sekaligus.</p>
+      <div class="media-toolbar"><label class="media-search"><span>CARI DOMAIN</span><input id="cariDomain" type="search" placeholder="contoh: google.com" autocomplete="off"></label><label class="media-filter"><span>STATUS</span><select id="filterDomain"><option value="semua">Semua</option><option value="aktif">Aktif</option><option value="tidak aktif">Tidak aktif</option></select></label><button class="tombol tombol-hening" id="muatUlangMedia" type="button">Muat ulang</button></div>
+      <div class="media-meta"><span id="ringkasanMedia">Menyiapkan indeks…</span><span id="shardMedia">SHARD —</span></div>
+      <div class="media-table-wrap"><table class="media-table"><thead><tr><th>NO.</th><th>DOMAIN</th><th>STATUS</th><th>SHARD</th><th>SUMBER</th></tr></thead><tbody id="daftarDomain"><tr><td colspan="5" class="media-kosong">Memuat data.media/domain-000001.jsonl…</td></tr></tbody></table></div>
+      <div class="media-pages"><button class="tombol tombol-hening" id="mediaSebelumnya" type="button">← Sebelumnya</button><span id="halamanMedia">Halaman 1</span><button class="tombol tombol-hening" id="mediaBerikutnya" type="button">Berikutnya →</button></div>
+    </section>
   </main>
   <footer class="kaki"><span>© 2026 NALAR AKSARA</span><span>SISTEM TEKS / KATA · ANGKA · SIMBOL · BINER</span><span>BERJALAN DI PERAMBAN ANDA</span></footer>
   <script src="aplikasi.js"></script>

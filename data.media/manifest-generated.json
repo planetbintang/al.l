@@ -1,0 +1,13 @@
+{
+  "versi": 1,
+  "format": "jsonl",
+  "jumlahBerkasTarget": 500000,
+  "berkasDibuatDalamPerintahIni": 1,
+  "entriPerBerkas": 950,
+  "status": [
+    "aktif",
+    "tidak aktif"
+  ],
+  "polaNama": "domain-XXXXXX.jsonl",
+  "diperbarui": "2026-10-22T15:16:29.503Z"
+}

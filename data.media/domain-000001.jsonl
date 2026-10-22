@@ -1,0 +1,950 @@
+{"domain":"google.com","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":1}
+{"domain":"youtube.com","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":2}
+{"domain":"facebook.com","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":3}
+{"domain":"instagram.com","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":4}
+{"domain":"wikipedia.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":5}
+{"domain":"amazon.com","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":6}
+{"domain":"microsoft.com","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":7}
+{"domain":"apple.com","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":8}
+{"domain":"netflix.com","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":9}
+{"domain":"linkedin.com","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":10}
+{"domain":"reddit.com","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":11}
+{"domain":"x.com","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":12}
+{"domain":"whatsapp.com","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":13}
+{"domain":"telegram.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":14}
+{"domain":"github.com","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":15}
+{"domain":"gitlab.com","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":16}
+{"domain":"cloudflare.com","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":17}
+{"domain":"openai.com","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":18}
+{"domain":"npmjs.com","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":19}
+{"domain":"stackoverflow.com","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":20}
+{"domain":"medium.com","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":21}
+{"domain":"wordpress.com","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":22}
+{"domain":"shopify.com","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":23}
+{"domain":"adobe.com","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":24}
+{"domain":"spotify.com","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":25}
+{"domain":"tiktok.com","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":26}
+{"domain":"imdb.com","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":27}
+{"domain":"cnn.com","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":28}
+{"domain":"bbc.com","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":29}
+{"domain":"nytimes.com","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":30}
+{"domain":"paypal.com","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":31}
+{"domain":"stripe.com","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":32}
+{"domain":"dropbox.com","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":33}
+{"domain":"salesforce.com","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":34}
+{"domain":"slack.com","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":35}
+{"domain":"zoom.us","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":36}
+{"domain":"notion.so","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":37}
+{"domain":"figma.com","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":38}
+{"domain":"canva.com","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":39}
+{"domain":"booking.com","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":40}
+{"domain":"airbnb.com","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":41}
+{"domain":"uber.com","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":42}
+{"domain":"etsy.com","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":43}
+{"domain":"ebay.com","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":44}
+{"domain":"alibaba.com","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":45}
+{"domain":"jd.com","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":46}
+{"domain":"rakuten.co.jp","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":47}
+{"domain":"naver.com","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":48}
+{"domain":"baidu.com","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":49}
+{"domain":"qq.com","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":50}
+{"domain":"weibo.com","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":51}
+{"domain":"line.me","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":52}
+{"domain":"mercadolivre.com.br","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":53}
+{"domain":"globo.com","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":54}
+{"domain":"uol.com.br","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":55}
+{"domain":"kompas.com","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":56}
+{"domain":"detik.com","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":57}
+{"domain":"tribunnews.com","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":58}
+{"domain":"tempo.co","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":59}
+{"domain":"kaskus.co.id","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":60}
+{"domain":"tokopedia.com","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":61}
+{"domain":"bukalapak.com","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":62}
+{"domain":"blibli.com","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":63}
+{"domain":"gojek.com","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":64}
+{"domain":"grab.com","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":65}
+{"domain":"traveloka.com","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":66}
+{"domain":"sindonews.com","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":67}
+{"domain":"antaranews.com","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":68}
+{"domain":"channelnewsasia.com","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":69}
+{"domain":"straitstimes.com","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":70}
+{"domain":"theguardian.com","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":71}
+{"domain":"reuters.com","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":72}
+{"domain":"apnews.com","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":73}
+{"domain":"nasa.gov","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":74}
+{"domain":"mit.edu","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":75}
+{"domain":"harvard.edu","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":76}
+{"domain":"ox.ac.uk","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":77}
+{"domain":"cam.ac.uk","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":78}
+{"domain":"who.int","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":79}
+{"domain":"un.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":80}
+{"domain":"worldbank.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":81}
+{"domain":"imf.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":82}
+{"domain":"wto.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":83}
+{"domain":"mozilla.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":84}
+{"domain":"python.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":85}
+{"domain":"nodejs.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":86}
+{"domain":"rust-lang.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":87}
+{"domain":"ubuntu.com","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":88}
+{"domain":"debian.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":89}
+{"domain":"archlinux.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":90}
+{"domain":"w3.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":91}
+{"domain":"ietf.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":92}
+{"domain":"icann.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":93}
+{"domain":"verisign.com","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":94}
+{"domain":"namecheap.com","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":95}
+{"domain":"godaddy.com","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":96}
+{"domain":"fastly.com","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":97}
+{"domain":"vercel.com","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":98}
+{"domain":"netlify.com","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":99}
+{"domain":"heroku.com","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":100}
+{"domain":"aws.amazon.com","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":101}
+{"domain":"azure.microsoft.com","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":102}
+{"domain":"cloud.google.com","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":103}
+{"domain":"huggingface.co","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":104}
+{"domain":"kaggle.com","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":105}
+{"domain":"coursera.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":106}
+{"domain":"edx.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":107}
+{"domain":"udemy.com","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":108}
+{"domain":"google.com","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":109}
+{"domain":"youtube.com","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":110}
+{"domain":"facebook.com","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":111}
+{"domain":"instagram.com","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":112}
+{"domain":"wikipedia.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":113}
+{"domain":"amazon.com","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":114}
+{"domain":"microsoft.com","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":115}
+{"domain":"apple.com","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":116}
+{"domain":"netflix.com","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":117}
+{"domain":"linkedin.com","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":118}
+{"domain":"reddit.com","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":119}
+{"domain":"x.com","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":120}
+{"domain":"vercel-1-120.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":121}
+{"domain":"microsoft-1-121.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":122}
+{"domain":"adobe-1-122.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":123}
+{"domain":"airbnb-1-123.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":124}
+{"domain":"tribunnews-1-124.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":125}
+{"domain":"mit-1-125.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":126}
+{"domain":"ietf-1-126.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":127}
+{"domain":"google-1-127.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":128}
+{"domain":"openai-1-128.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":129}
+{"domain":"slack-1-129.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":130}
+{"domain":"line-1-130.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":131}
+{"domain":"channelnewsasia-1-131.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":132}
+{"domain":"nodejs-1-132.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":133}
+{"domain":"cloud-1-133.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":134}
+{"domain":"x-1-134.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":135}
+{"domain":"bbc-1-135.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":136}
+{"domain":"jd-1-136.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":137}
+{"domain":"blibli-1-137.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":138}
+{"domain":"un-1-138.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":139}
+{"domain":"fastly-1-139.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":140}
+{"domain":"amazon-1-140.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":141}
+{"domain":"shopify-1-141.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":142}
+{"domain":"booking-1-142.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":143}
+{"domain":"detik-1-143.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":144}
+{"domain":"nasa-1-144.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":145}
+{"domain":"w3-1-145.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":146}
+{"domain":"udemy-1-146.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":147}
+{"domain":"cloudflare-1-147.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":148}
+{"domain":"salesforce-1-148.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":149}
+{"domain":"weibo-1-149.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":150}
+{"domain":"antaranews-1-150.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":151}
+{"domain":"python-1-151.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":152}
+{"domain":"azure-1-152.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":153}
+{"domain":"reddit-1-153.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":154}
+{"domain":"cnn-1-154.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":155}
+{"domain":"alibaba-1-155.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":156}
+{"domain":"bukalapak-1-156.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":157}
+{"domain":"who-1-157.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":158}
+{"domain":"godaddy-1-158.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":159}
+{"domain":"wikipedia-1-159.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":160}
+{"domain":"wordpress-1-160.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":161}
+{"domain":"canva-1-161.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":162}
+{"domain":"kompas-1-162.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":163}
+{"domain":"apnews-1-163.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":164}
+{"domain":"archlinux-1-164.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":165}
+{"domain":"edx-1-165.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":166}
+{"domain":"gitlab-1-166.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":167}
+{"domain":"dropbox-1-167.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":168}
+{"domain":"qq-1-168.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":169}
+{"domain":"sindonews-1-169.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":170}
+{"domain":"mozilla-1-170.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":171}
+{"domain":"aws-1-171.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":172}
+{"domain":"linkedin-1-172.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":173}
+{"domain":"imdb-1-173.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":174}
+{"domain":"ebay-1-174.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":175}
+{"domain":"tokopedia-1-175.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":176}
+{"domain":"cam-1-176.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":177}
+{"domain":"namecheap-1-177.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":178}
+{"domain":"instagram-1-178.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":179}
+{"domain":"medium-1-179.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":180}
+{"domain":"figma-1-180.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":181}
+{"domain":"uol-1-181.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":182}
+{"domain":"reuters-1-182.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":183}
+{"domain":"debian-1-183.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":184}
+{"domain":"coursera-1-184.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":185}
+{"domain":"github-1-185.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":186}
+{"domain":"stripe-1-186.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":187}
+{"domain":"baidu-1-187.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":188}
+{"domain":"traveloka-1-188.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":189}
+{"domain":"wto-1-189.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":190}
+{"domain":"heroku-1-190.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":191}
+{"domain":"netflix-1-191.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":192}
+{"domain":"tiktok-1-192.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":193}
+{"domain":"etsy-1-193.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":194}
+{"domain":"kaskus-1-194.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":195}
+{"domain":"ox-1-195.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":196}
+{"domain":"verisign-1-196.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":197}
+{"domain":"facebook-1-197.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":198}
+{"domain":"stackoverflow-1-198.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":199}
+{"domain":"notion-1-199.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":200}
+{"domain":"globo-1-200.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":201}
+{"domain":"theguardian-1-201.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":202}
+{"domain":"ubuntu-1-202.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":203}
+{"domain":"kaggle-1-203.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":204}
+{"domain":"telegram-1-204.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":205}
+{"domain":"paypal-1-205.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":206}
+{"domain":"naver-1-206.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":207}
+{"domain":"grab-1-207.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":208}
+{"domain":"imf-1-208.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":209}
+{"domain":"netlify-1-209.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":210}
+{"domain":"apple-1-210.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":211}
+{"domain":"spotify-1-211.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":212}
+{"domain":"uber-1-212.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":213}
+{"domain":"tempo-1-213.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":214}
+{"domain":"harvard-1-214.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":215}
+{"domain":"icann-1-215.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":216}
+{"domain":"youtube-1-216.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":217}
+{"domain":"npmjs-1-217.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":218}
+{"domain":"zoom-1-218.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":219}
+{"domain":"mercadolivre-1-219.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":220}
+{"domain":"straitstimes-1-220.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":221}
+{"domain":"rust-lang-1-221.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":222}
+{"domain":"huggingface-1-222.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":223}
+{"domain":"whatsapp-1-223.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":224}
+{"domain":"nytimes-1-224.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":225}
+{"domain":"rakuten-1-225.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":226}
+{"domain":"gojek-1-226.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":227}
+{"domain":"worldbank-1-227.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":228}
+{"domain":"vercel-1-228.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":229}
+{"domain":"microsoft-1-229.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":230}
+{"domain":"adobe-1-230.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":231}
+{"domain":"airbnb-1-231.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":232}
+{"domain":"tribunnews-1-232.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":233}
+{"domain":"mit-1-233.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":234}
+{"domain":"ietf-1-234.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":235}
+{"domain":"google-1-235.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":236}
+{"domain":"openai-1-236.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":237}
+{"domain":"slack-1-237.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":238}
+{"domain":"line-1-238.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":239}
+{"domain":"channelnewsasia-1-239.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":240}
+{"domain":"nodejs-1-240.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":241}
+{"domain":"cloud-1-241.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":242}
+{"domain":"x-1-242.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":243}
+{"domain":"bbc-1-243.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":244}
+{"domain":"jd-1-244.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":245}
+{"domain":"blibli-1-245.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":246}
+{"domain":"un-1-246.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":247}
+{"domain":"fastly-1-247.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":248}
+{"domain":"amazon-1-248.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":249}
+{"domain":"shopify-1-249.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":250}
+{"domain":"booking-1-250.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":251}
+{"domain":"detik-1-251.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":252}
+{"domain":"nasa-1-252.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":253}
+{"domain":"w3-1-253.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":254}
+{"domain":"udemy-1-254.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":255}
+{"domain":"cloudflare-1-255.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":256}
+{"domain":"salesforce-1-256.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":257}
+{"domain":"weibo-1-257.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":258}
+{"domain":"antaranews-1-258.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":259}
+{"domain":"python-1-259.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":260}
+{"domain":"azure-1-260.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":261}
+{"domain":"reddit-1-261.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":262}
+{"domain":"cnn-1-262.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":263}
+{"domain":"alibaba-1-263.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":264}
+{"domain":"bukalapak-1-264.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":265}
+{"domain":"who-1-265.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":266}
+{"domain":"godaddy-1-266.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":267}
+{"domain":"wikipedia-1-267.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":268}
+{"domain":"wordpress-1-268.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":269}
+{"domain":"canva-1-269.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":270}
+{"domain":"kompas-1-270.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":271}
+{"domain":"apnews-1-271.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":272}
+{"domain":"archlinux-1-272.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":273}
+{"domain":"edx-1-273.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":274}
+{"domain":"gitlab-1-274.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":275}
+{"domain":"dropbox-1-275.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":276}
+{"domain":"qq-1-276.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":277}
+{"domain":"sindonews-1-277.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":278}
+{"domain":"mozilla-1-278.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":279}
+{"domain":"aws-1-279.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":280}
+{"domain":"linkedin-1-280.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":281}
+{"domain":"imdb-1-281.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":282}
+{"domain":"ebay-1-282.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":283}
+{"domain":"tokopedia-1-283.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":284}
+{"domain":"cam-1-284.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":285}
+{"domain":"namecheap-1-285.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":286}
+{"domain":"instagram-1-286.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":287}
+{"domain":"medium-1-287.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":288}
+{"domain":"figma-1-288.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":289}
+{"domain":"uol-1-289.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":290}
+{"domain":"reuters-1-290.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":291}
+{"domain":"debian-1-291.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":292}
+{"domain":"coursera-1-292.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":293}
+{"domain":"github-1-293.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":294}
+{"domain":"stripe-1-294.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":295}
+{"domain":"baidu-1-295.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":296}
+{"domain":"traveloka-1-296.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":297}
+{"domain":"wto-1-297.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":298}
+{"domain":"heroku-1-298.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":299}
+{"domain":"netflix-1-299.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":300}
+{"domain":"tiktok-1-300.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":301}
+{"domain":"etsy-1-301.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":302}
+{"domain":"kaskus-1-302.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":303}
+{"domain":"ox-1-303.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":304}
+{"domain":"verisign-1-304.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":305}
+{"domain":"facebook-1-305.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":306}
+{"domain":"stackoverflow-1-306.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":307}
+{"domain":"notion-1-307.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":308}
+{"domain":"globo-1-308.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":309}
+{"domain":"theguardian-1-309.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":310}
+{"domain":"ubuntu-1-310.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":311}
+{"domain":"kaggle-1-311.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":312}
+{"domain":"telegram-1-312.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":313}
+{"domain":"paypal-1-313.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":314}
+{"domain":"naver-1-314.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":315}
+{"domain":"grab-1-315.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":316}
+{"domain":"imf-1-316.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":317}
+{"domain":"netlify-1-317.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":318}
+{"domain":"apple-1-318.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":319}
+{"domain":"spotify-1-319.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":320}
+{"domain":"uber-1-320.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":321}
+{"domain":"tempo-1-321.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":322}
+{"domain":"harvard-1-322.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":323}
+{"domain":"icann-1-323.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":324}
+{"domain":"youtube-1-324.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":325}
+{"domain":"npmjs-1-325.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":326}
+{"domain":"zoom-1-326.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":327}
+{"domain":"mercadolivre-1-327.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":328}
+{"domain":"straitstimes-1-328.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":329}
+{"domain":"rust-lang-1-329.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":330}
+{"domain":"huggingface-1-330.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":331}
+{"domain":"whatsapp-1-331.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":332}
+{"domain":"nytimes-1-332.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":333}
+{"domain":"rakuten-1-333.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":334}
+{"domain":"gojek-1-334.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":335}
+{"domain":"worldbank-1-335.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":336}
+{"domain":"vercel-1-336.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":337}
+{"domain":"microsoft-1-337.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":338}
+{"domain":"adobe-1-338.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":339}
+{"domain":"airbnb-1-339.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":340}
+{"domain":"tribunnews-1-340.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":341}
+{"domain":"mit-1-341.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":342}
+{"domain":"ietf-1-342.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":343}
+{"domain":"google-1-343.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":344}
+{"domain":"openai-1-344.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":345}
+{"domain":"slack-1-345.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":346}
+{"domain":"line-1-346.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":347}
+{"domain":"channelnewsasia-1-347.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":348}
+{"domain":"nodejs-1-348.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":349}
+{"domain":"cloud-1-349.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":350}
+{"domain":"x-1-350.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":351}
+{"domain":"bbc-1-351.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":352}
+{"domain":"jd-1-352.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":353}
+{"domain":"blibli-1-353.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":354}
+{"domain":"un-1-354.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":355}
+{"domain":"fastly-1-355.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":356}
+{"domain":"amazon-1-356.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":357}
+{"domain":"shopify-1-357.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":358}
+{"domain":"booking-1-358.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":359}
+{"domain":"detik-1-359.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":360}
+{"domain":"nasa-1-360.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":361}
+{"domain":"w3-1-361.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":362}
+{"domain":"udemy-1-362.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":363}
+{"domain":"cloudflare-1-363.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":364}
+{"domain":"salesforce-1-364.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":365}
+{"domain":"weibo-1-365.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":366}
+{"domain":"antaranews-1-366.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":367}
+{"domain":"python-1-367.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":368}
+{"domain":"azure-1-368.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":369}
+{"domain":"reddit-1-369.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":370}
+{"domain":"cnn-1-370.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":371}
+{"domain":"alibaba-1-371.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":372}
+{"domain":"bukalapak-1-372.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":373}
+{"domain":"who-1-373.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":374}
+{"domain":"godaddy-1-374.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":375}
+{"domain":"wikipedia-1-375.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":376}
+{"domain":"wordpress-1-376.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":377}
+{"domain":"canva-1-377.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":378}
+{"domain":"kompas-1-378.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":379}
+{"domain":"apnews-1-379.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":380}
+{"domain":"archlinux-1-380.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":381}
+{"domain":"edx-1-381.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":382}
+{"domain":"gitlab-1-382.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":383}
+{"domain":"dropbox-1-383.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":384}
+{"domain":"qq-1-384.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":385}
+{"domain":"sindonews-1-385.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":386}
+{"domain":"mozilla-1-386.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":387}
+{"domain":"aws-1-387.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":388}
+{"domain":"linkedin-1-388.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":389}
+{"domain":"imdb-1-389.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":390}
+{"domain":"ebay-1-390.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":391}
+{"domain":"tokopedia-1-391.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":392}
+{"domain":"cam-1-392.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":393}
+{"domain":"namecheap-1-393.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":394}
+{"domain":"instagram-1-394.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":395}
+{"domain":"medium-1-395.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":396}
+{"domain":"figma-1-396.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":397}
+{"domain":"uol-1-397.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":398}
+{"domain":"reuters-1-398.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":399}
+{"domain":"debian-1-399.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":400}
+{"domain":"coursera-1-400.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":401}
+{"domain":"github-1-401.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":402}
+{"domain":"stripe-1-402.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":403}
+{"domain":"baidu-1-403.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":404}
+{"domain":"traveloka-1-404.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":405}
+{"domain":"wto-1-405.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":406}
+{"domain":"heroku-1-406.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":407}
+{"domain":"netflix-1-407.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":408}
+{"domain":"tiktok-1-408.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":409}
+{"domain":"etsy-1-409.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":410}
+{"domain":"kaskus-1-410.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":411}
+{"domain":"ox-1-411.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":412}
+{"domain":"verisign-1-412.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":413}
+{"domain":"facebook-1-413.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":414}
+{"domain":"stackoverflow-1-414.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":415}
+{"domain":"notion-1-415.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":416}
+{"domain":"globo-1-416.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":417}
+{"domain":"theguardian-1-417.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":418}
+{"domain":"ubuntu-1-418.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":419}
+{"domain":"kaggle-1-419.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":420}
+{"domain":"telegram-1-420.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":421}
+{"domain":"paypal-1-421.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":422}
+{"domain":"naver-1-422.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":423}
+{"domain":"grab-1-423.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":424}
+{"domain":"imf-1-424.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":425}
+{"domain":"netlify-1-425.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":426}
+{"domain":"apple-1-426.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":427}
+{"domain":"spotify-1-427.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":428}
+{"domain":"uber-1-428.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":429}
+{"domain":"tempo-1-429.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":430}
+{"domain":"harvard-1-430.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":431}
+{"domain":"icann-1-431.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":432}
+{"domain":"youtube-1-432.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":433}
+{"domain":"npmjs-1-433.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":434}
+{"domain":"zoom-1-434.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":435}
+{"domain":"mercadolivre-1-435.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":436}
+{"domain":"straitstimes-1-436.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":437}
+{"domain":"rust-lang-1-437.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":438}
+{"domain":"huggingface-1-438.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":439}
+{"domain":"whatsapp-1-439.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":440}
+{"domain":"nytimes-1-440.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":441}
+{"domain":"rakuten-1-441.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":442}
+{"domain":"gojek-1-442.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":443}
+{"domain":"worldbank-1-443.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":444}
+{"domain":"vercel-1-444.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":445}
+{"domain":"microsoft-1-445.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":446}
+{"domain":"adobe-1-446.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":447}
+{"domain":"airbnb-1-447.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":448}
+{"domain":"tribunnews-1-448.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":449}
+{"domain":"mit-1-449.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":450}
+{"domain":"ietf-1-450.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":451}
+{"domain":"google-1-451.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":452}
+{"domain":"openai-1-452.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":453}
+{"domain":"slack-1-453.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":454}
+{"domain":"line-1-454.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":455}
+{"domain":"channelnewsasia-1-455.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":456}
+{"domain":"nodejs-1-456.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":457}
+{"domain":"cloud-1-457.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":458}
+{"domain":"x-1-458.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":459}
+{"domain":"bbc-1-459.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":460}
+{"domain":"jd-1-460.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":461}
+{"domain":"blibli-1-461.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":462}
+{"domain":"un-1-462.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":463}
+{"domain":"fastly-1-463.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":464}
+{"domain":"amazon-1-464.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":465}
+{"domain":"shopify-1-465.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":466}
+{"domain":"booking-1-466.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":467}
+{"domain":"detik-1-467.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":468}
+{"domain":"nasa-1-468.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":469}
+{"domain":"w3-1-469.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":470}
+{"domain":"udemy-1-470.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":471}
+{"domain":"cloudflare-1-471.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":472}
+{"domain":"salesforce-1-472.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":473}
+{"domain":"weibo-1-473.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":474}
+{"domain":"antaranews-1-474.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":475}
+{"domain":"python-1-475.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":476}
+{"domain":"azure-1-476.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":477}
+{"domain":"reddit-1-477.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":478}
+{"domain":"cnn-1-478.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":479}
+{"domain":"alibaba-1-479.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":480}
+{"domain":"bukalapak-1-480.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":481}
+{"domain":"who-1-481.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":482}
+{"domain":"godaddy-1-482.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":483}
+{"domain":"wikipedia-1-483.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":484}
+{"domain":"wordpress-1-484.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":485}
+{"domain":"canva-1-485.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":486}
+{"domain":"kompas-1-486.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":487}
+{"domain":"apnews-1-487.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":488}
+{"domain":"archlinux-1-488.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":489}
+{"domain":"edx-1-489.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":490}
+{"domain":"gitlab-1-490.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":491}
+{"domain":"dropbox-1-491.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":492}
+{"domain":"qq-1-492.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":493}
+{"domain":"sindonews-1-493.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":494}
+{"domain":"mozilla-1-494.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":495}
+{"domain":"aws-1-495.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":496}
+{"domain":"linkedin-1-496.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":497}
+{"domain":"imdb-1-497.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":498}
+{"domain":"ebay-1-498.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":499}
+{"domain":"tokopedia-1-499.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":500}
+{"domain":"cam-1-500.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":501}
+{"domain":"namecheap-1-501.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":502}
+{"domain":"instagram-1-502.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":503}
+{"domain":"medium-1-503.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":504}
+{"domain":"figma-1-504.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":505}
+{"domain":"uol-1-505.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":506}
+{"domain":"reuters-1-506.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":507}
+{"domain":"debian-1-507.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":508}
+{"domain":"coursera-1-508.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":509}
+{"domain":"github-1-509.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":510}
+{"domain":"stripe-1-510.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":511}
+{"domain":"baidu-1-511.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":512}
+{"domain":"traveloka-1-512.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":513}
+{"domain":"wto-1-513.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":514}
+{"domain":"heroku-1-514.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":515}
+{"domain":"netflix-1-515.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":516}
+{"domain":"tiktok-1-516.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":517}
+{"domain":"etsy-1-517.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":518}
+{"domain":"kaskus-1-518.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":519}
+{"domain":"ox-1-519.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":520}
+{"domain":"verisign-1-520.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":521}
+{"domain":"facebook-1-521.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":522}
+{"domain":"stackoverflow-1-522.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":523}
+{"domain":"notion-1-523.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":524}
+{"domain":"globo-1-524.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":525}
+{"domain":"theguardian-1-525.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":526}
+{"domain":"ubuntu-1-526.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":527}
+{"domain":"kaggle-1-527.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":528}
+{"domain":"telegram-1-528.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":529}
+{"domain":"paypal-1-529.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":530}
+{"domain":"naver-1-530.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":531}
+{"domain":"grab-1-531.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":532}
+{"domain":"imf-1-532.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":533}
+{"domain":"netlify-1-533.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":534}
+{"domain":"apple-1-534.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":535}
+{"domain":"spotify-1-535.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":536}
+{"domain":"uber-1-536.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":537}
+{"domain":"tempo-1-537.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":538}
+{"domain":"harvard-1-538.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":539}
+{"domain":"icann-1-539.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":540}
+{"domain":"youtube-1-540.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":541}
+{"domain":"npmjs-1-541.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":542}
+{"domain":"zoom-1-542.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":543}
+{"domain":"mercadolivre-1-543.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":544}
+{"domain":"straitstimes-1-544.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":545}
+{"domain":"rust-lang-1-545.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":546}
+{"domain":"huggingface-1-546.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":547}
+{"domain":"whatsapp-1-547.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":548}
+{"domain":"nytimes-1-548.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":549}
+{"domain":"rakuten-1-549.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":550}
+{"domain":"gojek-1-550.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":551}
+{"domain":"worldbank-1-551.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":552}
+{"domain":"vercel-1-552.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":553}
+{"domain":"microsoft-1-553.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":554}
+{"domain":"adobe-1-554.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":555}
+{"domain":"airbnb-1-555.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":556}
+{"domain":"tribunnews-1-556.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":557}
+{"domain":"mit-1-557.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":558}
+{"domain":"ietf-1-558.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":559}
+{"domain":"google-1-559.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":560}
+{"domain":"openai-1-560.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":561}
+{"domain":"slack-1-561.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":562}
+{"domain":"line-1-562.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":563}
+{"domain":"channelnewsasia-1-563.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":564}
+{"domain":"nodejs-1-564.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":565}
+{"domain":"cloud-1-565.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":566}
+{"domain":"x-1-566.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":567}
+{"domain":"bbc-1-567.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":568}
+{"domain":"jd-1-568.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":569}
+{"domain":"blibli-1-569.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":570}
+{"domain":"un-1-570.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":571}
+{"domain":"fastly-1-571.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":572}
+{"domain":"amazon-1-572.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":573}
+{"domain":"shopify-1-573.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":574}
+{"domain":"booking-1-574.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":575}
+{"domain":"detik-1-575.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":576}
+{"domain":"nasa-1-576.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":577}
+{"domain":"w3-1-577.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":578}
+{"domain":"udemy-1-578.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":579}
+{"domain":"cloudflare-1-579.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":580}
+{"domain":"salesforce-1-580.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":581}
+{"domain":"weibo-1-581.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":582}
+{"domain":"antaranews-1-582.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":583}
+{"domain":"python-1-583.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":584}
+{"domain":"azure-1-584.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":585}
+{"domain":"reddit-1-585.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":586}
+{"domain":"cnn-1-586.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":587}
+{"domain":"alibaba-1-587.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":588}
+{"domain":"bukalapak-1-588.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":589}
+{"domain":"who-1-589.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":590}
+{"domain":"godaddy-1-590.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":591}
+{"domain":"wikipedia-1-591.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":592}
+{"domain":"wordpress-1-592.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":593}
+{"domain":"canva-1-593.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":594}
+{"domain":"kompas-1-594.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":595}
+{"domain":"apnews-1-595.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":596}
+{"domain":"archlinux-1-596.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":597}
+{"domain":"edx-1-597.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":598}
+{"domain":"gitlab-1-598.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":599}
+{"domain":"dropbox-1-599.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":600}
+{"domain":"qq-1-600.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":601}
+{"domain":"sindonews-1-601.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":602}
+{"domain":"mozilla-1-602.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":603}
+{"domain":"aws-1-603.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":604}
+{"domain":"linkedin-1-604.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":605}
+{"domain":"imdb-1-605.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":606}
+{"domain":"ebay-1-606.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":607}
+{"domain":"tokopedia-1-607.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":608}
+{"domain":"cam-1-608.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":609}
+{"domain":"namecheap-1-609.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":610}
+{"domain":"instagram-1-610.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":611}
+{"domain":"medium-1-611.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":612}
+{"domain":"figma-1-612.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":613}
+{"domain":"uol-1-613.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":614}
+{"domain":"reuters-1-614.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":615}
+{"domain":"debian-1-615.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":616}
+{"domain":"coursera-1-616.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":617}
+{"domain":"github-1-617.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":618}
+{"domain":"stripe-1-618.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":619}
+{"domain":"baidu-1-619.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":620}
+{"domain":"traveloka-1-620.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":621}
+{"domain":"wto-1-621.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":622}
+{"domain":"heroku-1-622.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":623}
+{"domain":"netflix-1-623.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":624}
+{"domain":"tiktok-1-624.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":625}
+{"domain":"etsy-1-625.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":626}
+{"domain":"kaskus-1-626.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":627}
+{"domain":"ox-1-627.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":628}
+{"domain":"verisign-1-628.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":629}
+{"domain":"facebook-1-629.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":630}
+{"domain":"stackoverflow-1-630.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":631}
+{"domain":"notion-1-631.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":632}
+{"domain":"globo-1-632.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":633}
+{"domain":"theguardian-1-633.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":634}
+{"domain":"ubuntu-1-634.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":635}
+{"domain":"kaggle-1-635.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":636}
+{"domain":"telegram-1-636.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":637}
+{"domain":"paypal-1-637.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":638}
+{"domain":"naver-1-638.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":639}
+{"domain":"grab-1-639.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":640}
+{"domain":"imf-1-640.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":641}
+{"domain":"netlify-1-641.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":642}
+{"domain":"apple-1-642.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":643}
+{"domain":"spotify-1-643.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":644}
+{"domain":"uber-1-644.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":645}
+{"domain":"tempo-1-645.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":646}
+{"domain":"harvard-1-646.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":647}
+{"domain":"icann-1-647.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":648}
+{"domain":"youtube-1-648.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":649}
+{"domain":"npmjs-1-649.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":650}
+{"domain":"zoom-1-650.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":651}
+{"domain":"mercadolivre-1-651.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":652}
+{"domain":"straitstimes-1-652.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":653}
+{"domain":"rust-lang-1-653.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":654}
+{"domain":"huggingface-1-654.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":655}
+{"domain":"whatsapp-1-655.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":656}
+{"domain":"nytimes-1-656.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":657}
+{"domain":"rakuten-1-657.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":658}
+{"domain":"gojek-1-658.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":659}
+{"domain":"worldbank-1-659.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":660}
+{"domain":"vercel-1-660.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":661}
+{"domain":"microsoft-1-661.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":662}
+{"domain":"adobe-1-662.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":663}
+{"domain":"airbnb-1-663.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":664}
+{"domain":"tribunnews-1-664.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":665}
+{"domain":"mit-1-665.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":666}
+{"domain":"ietf-1-666.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":667}
+{"domain":"google-1-667.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":668}
+{"domain":"openai-1-668.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":669}
+{"domain":"slack-1-669.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":670}
+{"domain":"line-1-670.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":671}
+{"domain":"channelnewsasia-1-671.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":672}
+{"domain":"nodejs-1-672.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":673}
+{"domain":"cloud-1-673.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":674}
+{"domain":"x-1-674.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":675}
+{"domain":"bbc-1-675.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":676}
+{"domain":"jd-1-676.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":677}
+{"domain":"blibli-1-677.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":678}
+{"domain":"un-1-678.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":679}
+{"domain":"fastly-1-679.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":680}
+{"domain":"amazon-1-680.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":681}
+{"domain":"shopify-1-681.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":682}
+{"domain":"booking-1-682.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":683}
+{"domain":"detik-1-683.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":684}
+{"domain":"nasa-1-684.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":685}
+{"domain":"w3-1-685.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":686}
+{"domain":"udemy-1-686.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":687}
+{"domain":"cloudflare-1-687.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":688}
+{"domain":"salesforce-1-688.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":689}
+{"domain":"weibo-1-689.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":690}
+{"domain":"antaranews-1-690.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":691}
+{"domain":"python-1-691.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":692}
+{"domain":"azure-1-692.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":693}
+{"domain":"reddit-1-693.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":694}
+{"domain":"cnn-1-694.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":695}
+{"domain":"alibaba-1-695.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":696}
+{"domain":"bukalapak-1-696.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":697}
+{"domain":"who-1-697.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":698}
+{"domain":"godaddy-1-698.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":699}
+{"domain":"wikipedia-1-699.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":700}
+{"domain":"wordpress-1-700.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":701}
+{"domain":"canva-1-701.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":702}
+{"domain":"kompas-1-702.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":703}
+{"domain":"apnews-1-703.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":704}
+{"domain":"archlinux-1-704.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":705}
+{"domain":"edx-1-705.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":706}
+{"domain":"gitlab-1-706.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":707}
+{"domain":"dropbox-1-707.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":708}
+{"domain":"qq-1-708.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":709}
+{"domain":"sindonews-1-709.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":710}
+{"domain":"mozilla-1-710.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":711}
+{"domain":"aws-1-711.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":712}
+{"domain":"linkedin-1-712.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":713}
+{"domain":"imdb-1-713.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":714}
+{"domain":"ebay-1-714.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":715}
+{"domain":"tokopedia-1-715.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":716}
+{"domain":"cam-1-716.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":717}
+{"domain":"namecheap-1-717.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":718}
+{"domain":"instagram-1-718.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":719}
+{"domain":"medium-1-719.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":720}
+{"domain":"figma-1-720.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":721}
+{"domain":"uol-1-721.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":722}
+{"domain":"reuters-1-722.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":723}
+{"domain":"debian-1-723.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":724}
+{"domain":"coursera-1-724.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":725}
+{"domain":"github-1-725.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":726}
+{"domain":"stripe-1-726.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":727}
+{"domain":"baidu-1-727.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":728}
+{"domain":"traveloka-1-728.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":729}
+{"domain":"wto-1-729.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":730}
+{"domain":"heroku-1-730.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":731}
+{"domain":"netflix-1-731.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":732}
+{"domain":"tiktok-1-732.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":733}
+{"domain":"etsy-1-733.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":734}
+{"domain":"kaskus-1-734.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":735}
+{"domain":"ox-1-735.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":736}
+{"domain":"verisign-1-736.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":737}
+{"domain":"facebook-1-737.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":738}
+{"domain":"stackoverflow-1-738.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":739}
+{"domain":"notion-1-739.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":740}
+{"domain":"globo-1-740.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":741}
+{"domain":"theguardian-1-741.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":742}
+{"domain":"ubuntu-1-742.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":743}
+{"domain":"kaggle-1-743.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":744}
+{"domain":"telegram-1-744.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":745}
+{"domain":"paypal-1-745.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":746}
+{"domain":"naver-1-746.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":747}
+{"domain":"grab-1-747.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":748}
+{"domain":"imf-1-748.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":749}
+{"domain":"netlify-1-749.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":750}
+{"domain":"apple-1-750.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":751}
+{"domain":"spotify-1-751.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":752}
+{"domain":"uber-1-752.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":753}
+{"domain":"tempo-1-753.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":754}
+{"domain":"harvard-1-754.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":755}
+{"domain":"icann-1-755.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":756}
+{"domain":"youtube-1-756.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":757}
+{"domain":"npmjs-1-757.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":758}
+{"domain":"zoom-1-758.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":759}
+{"domain":"mercadolivre-1-759.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":760}
+{"domain":"straitstimes-1-760.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":761}
+{"domain":"rust-lang-1-761.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":762}
+{"domain":"huggingface-1-762.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":763}
+{"domain":"whatsapp-1-763.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":764}
+{"domain":"nytimes-1-764.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":765}
+{"domain":"rakuten-1-765.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":766}
+{"domain":"gojek-1-766.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":767}
+{"domain":"worldbank-1-767.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":768}
+{"domain":"vercel-1-768.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":769}
+{"domain":"microsoft-1-769.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":770}
+{"domain":"adobe-1-770.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":771}
+{"domain":"airbnb-1-771.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":772}
+{"domain":"tribunnews-1-772.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":773}
+{"domain":"mit-1-773.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":774}
+{"domain":"ietf-1-774.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":775}
+{"domain":"google-1-775.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":776}
+{"domain":"openai-1-776.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":777}
+{"domain":"slack-1-777.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":778}
+{"domain":"line-1-778.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":779}
+{"domain":"channelnewsasia-1-779.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":780}
+{"domain":"nodejs-1-780.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":781}
+{"domain":"cloud-1-781.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":782}
+{"domain":"x-1-782.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":783}
+{"domain":"bbc-1-783.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":784}
+{"domain":"jd-1-784.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":785}
+{"domain":"blibli-1-785.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":786}
+{"domain":"un-1-786.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":787}
+{"domain":"fastly-1-787.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":788}
+{"domain":"amazon-1-788.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":789}
+{"domain":"shopify-1-789.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":790}
+{"domain":"booking-1-790.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":791}
+{"domain":"detik-1-791.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":792}
+{"domain":"nasa-1-792.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":793}
+{"domain":"w3-1-793.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":794}
+{"domain":"udemy-1-794.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":795}
+{"domain":"cloudflare-1-795.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":796}
+{"domain":"salesforce-1-796.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":797}
+{"domain":"weibo-1-797.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":798}
+{"domain":"antaranews-1-798.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":799}
+{"domain":"python-1-799.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":800}
+{"domain":"azure-1-800.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":801}
+{"domain":"reddit-1-801.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":802}
+{"domain":"cnn-1-802.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":803}
+{"domain":"alibaba-1-803.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":804}
+{"domain":"bukalapak-1-804.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":805}
+{"domain":"who-1-805.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":806}
+{"domain":"godaddy-1-806.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":807}
+{"domain":"wikipedia-1-807.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":808}
+{"domain":"wordpress-1-808.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":809}
+{"domain":"canva-1-809.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":810}
+{"domain":"kompas-1-810.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":811}
+{"domain":"apnews-1-811.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":812}
+{"domain":"archlinux-1-812.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":813}
+{"domain":"edx-1-813.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":814}
+{"domain":"gitlab-1-814.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":815}
+{"domain":"dropbox-1-815.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":816}
+{"domain":"qq-1-816.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":817}
+{"domain":"sindonews-1-817.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":818}
+{"domain":"mozilla-1-818.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":819}
+{"domain":"aws-1-819.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":820}
+{"domain":"linkedin-1-820.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":821}
+{"domain":"imdb-1-821.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":822}
+{"domain":"ebay-1-822.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":823}
+{"domain":"tokopedia-1-823.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":824}
+{"domain":"cam-1-824.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":825}
+{"domain":"namecheap-1-825.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":826}
+{"domain":"instagram-1-826.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":827}
+{"domain":"medium-1-827.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":828}
+{"domain":"figma-1-828.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":829}
+{"domain":"uol-1-829.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":830}
+{"domain":"reuters-1-830.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":831}
+{"domain":"debian-1-831.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":832}
+{"domain":"coursera-1-832.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":833}
+{"domain":"github-1-833.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":834}
+{"domain":"stripe-1-834.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":835}
+{"domain":"baidu-1-835.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":836}
+{"domain":"traveloka-1-836.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":837}
+{"domain":"wto-1-837.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":838}
+{"domain":"heroku-1-838.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":839}
+{"domain":"netflix-1-839.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":840}
+{"domain":"tiktok-1-840.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":841}
+{"domain":"etsy-1-841.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":842}
+{"domain":"kaskus-1-842.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":843}
+{"domain":"ox-1-843.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":844}
+{"domain":"verisign-1-844.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":845}
+{"domain":"facebook-1-845.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":846}
+{"domain":"stackoverflow-1-846.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":847}
+{"domain":"notion-1-847.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":848}
+{"domain":"globo-1-848.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":849}
+{"domain":"theguardian-1-849.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":850}
+{"domain":"ubuntu-1-850.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":851}
+{"domain":"kaggle-1-851.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":852}
+{"domain":"telegram-1-852.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":853}
+{"domain":"paypal-1-853.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":854}
+{"domain":"naver-1-854.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":855}
+{"domain":"grab-1-855.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":856}
+{"domain":"imf-1-856.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":857}
+{"domain":"netlify-1-857.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":858}
+{"domain":"apple-1-858.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":859}
+{"domain":"spotify-1-859.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":860}
+{"domain":"uber-1-860.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":861}
+{"domain":"tempo-1-861.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":862}
+{"domain":"harvard-1-862.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":863}
+{"domain":"icann-1-863.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":864}
+{"domain":"youtube-1-864.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":865}
+{"domain":"npmjs-1-865.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":866}
+{"domain":"zoom-1-866.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":867}
+{"domain":"mercadolivre-1-867.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":868}
+{"domain":"straitstimes-1-868.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":869}
+{"domain":"rust-lang-1-869.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":870}
+{"domain":"huggingface-1-870.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":871}
+{"domain":"whatsapp-1-871.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":872}
+{"domain":"nytimes-1-872.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":873}
+{"domain":"rakuten-1-873.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":874}
+{"domain":"gojek-1-874.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":875}
+{"domain":"worldbank-1-875.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":876}
+{"domain":"vercel-1-876.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":877}
+{"domain":"microsoft-1-877.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":878}
+{"domain":"adobe-1-878.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":879}
+{"domain":"airbnb-1-879.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":880}
+{"domain":"tribunnews-1-880.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":881}
+{"domain":"mit-1-881.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":882}
+{"domain":"ietf-1-882.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":883}
+{"domain":"google-1-883.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":884}
+{"domain":"openai-1-884.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":885}
+{"domain":"slack-1-885.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":886}
+{"domain":"line-1-886.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":887}
+{"domain":"channelnewsasia-1-887.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":888}
+{"domain":"nodejs-1-888.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":889}
+{"domain":"cloud-1-889.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":890}
+{"domain":"x-1-890.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":891}
+{"domain":"bbc-1-891.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":892}
+{"domain":"jd-1-892.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":893}
+{"domain":"blibli-1-893.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":894}
+{"domain":"un-1-894.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":895}
+{"domain":"fastly-1-895.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":896}
+{"domain":"amazon-1-896.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":897}
+{"domain":"shopify-1-897.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":898}
+{"domain":"booking-1-898.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":899}
+{"domain":"detik-1-899.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":900}
+{"domain":"nasa-1-900.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":901}
+{"domain":"w3-1-901.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":902}
+{"domain":"udemy-1-902.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":903}
+{"domain":"cloudflare-1-903.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":904}
+{"domain":"salesforce-1-904.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":905}
+{"domain":"weibo-1-905.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":906}
+{"domain":"antaranews-1-906.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":907}
+{"domain":"python-1-907.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":908}
+{"domain":"azure-1-908.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":909}
+{"domain":"reddit-1-909.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":910}
+{"domain":"cnn-1-910.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":911}
+{"domain":"alibaba-1-911.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":912}
+{"domain":"bukalapak-1-912.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":913}
+{"domain":"who-1-913.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":914}
+{"domain":"godaddy-1-914.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":915}
+{"domain":"wikipedia-1-915.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":916}
+{"domain":"wordpress-1-916.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":917}
+{"domain":"canva-1-917.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":918}
+{"domain":"kompas-1-918.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":919}
+{"domain":"apnews-1-919.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":920}
+{"domain":"archlinux-1-920.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":921}
+{"domain":"edx-1-921.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":922}
+{"domain":"gitlab-1-922.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":923}
+{"domain":"dropbox-1-923.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":924}
+{"domain":"qq-1-924.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":925}
+{"domain":"sindonews-1-925.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":926}
+{"domain":"mozilla-1-926.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":927}
+{"domain":"aws-1-927.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":928}
+{"domain":"linkedin-1-928.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":929}
+{"domain":"imdb-1-929.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":930}
+{"domain":"ebay-1-930.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":931}
+{"domain":"tokopedia-1-931.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":932}
+{"domain":"cam-1-932.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":933}
+{"domain":"namecheap-1-933.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":934}
+{"domain":"instagram-1-934.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":935}
+{"domain":"medium-1-935.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":936}
+{"domain":"figma-1-936.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":937}
+{"domain":"uol-1-937.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":938}
+{"domain":"reuters-1-938.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":939}
+{"domain":"debian-1-939.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":940}
+{"domain":"coursera-1-940.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":941}
+{"domain":"github-1-941.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":942}
+{"domain":"stripe-1-942.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":943}
+{"domain":"baidu-1-943.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":944}
+{"domain":"traveloka-1-944.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":945}
+{"domain":"wto-1-945.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":946}
+{"domain":"heroku-1-946.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":947}
+{"domain":"netflix-1-947.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":948}
+{"domain":"tiktok-1-948.org","status":"aktif","sumber":"seed-katalog-media","shard":1,"urutan":949}
+{"domain":"etsy-1-949.org","status":"tidak aktif","sumber":"seed-katalog-media","shard":1,"urutan":950}
