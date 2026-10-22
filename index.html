@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b1220">
+  <meta name="description" content="Nalar Aksara — sistem AI pengetahuan teks, pola, angka, simbol, dan biner.">
+  <title>Nalar Aksara · Sistem Pengetahuan</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="gaya.css">
+</head>
+<body>
+  <div class="aurora aurora-satu"></div>
+  <div class="aurora aurora-dua"></div>
+  <header class="pita">
+    <a class="merek" href="#beranda" aria-label="Nalar Aksara beranda">
+      <span class="merek-lencana">N</span>
+      <span><strong>NALAR</strong><small>AKSARA / 01</small></span>
+    </a>
+    <nav class="navigasi" aria-label="Navigasi utama">
+      <a class="tautan aktif" href="#beranda" data-bagian="beranda">Beranda</a>
+      <a class="tautan" href="#ruang" data-bagian="ruang">Ruang Nalar</a>
+      <a class="tautan" href="#pengetahuan" data-bagian="pengetahuan">Pengetahuan</a>
+      <a class="tautan" href="#pola" data-bagian="pola">Pola Data</a>
+      <a class="tautan" href="#arsip" data-bagian="arsip">Arsip</a>
+    </nav>
+    <button class="tombol tombol-kecil tombol-tema" id="tombolTema" type="button" aria-label="Ganti tema">◐ <span>Tema</span></button>
+  </header>
+
+  <main id="beranda" class="bingkai">
+    <section class="hero" aria-labelledby="judul-utama">
+      <div class="hero-salinan">
+        <p class="eyebrow"><span class="titik-hidup"></span> MESIN PENGETAHUAN TEKS / AKTIF</p>
+        <h1 id="judul-utama">Bahasa yang<br><em>menjadi nalar.</em></h1>
+        <p class="hero-ringkas">Ruang kerja elegan untuk membaca, menyusun, dan mengubah pengetahuan menjadi pola yang dapat dipahami manusia.</p>
+        <div class="hero-aksi">
+          <a href="#ruang" class="tombol tombol-utama">Mulai menjelajah <span>↗</span></a>
+          <button class="tombol tombol-hening" id="tombolContoh" type="button">Muat contoh teks</button>
+        </div>
+      </div>
+      <div class="hero-grafik" aria-label="Visualisasi jaringan nalar">
+        <div class="orbit orbit-luar"></div>
+        <div class="orbit orbit-tengah"></div>
+        <div class="orbit orbit-dalam"></div>
+        <div class="inti-grafik"><span>01</span><strong>N</strong><small>AKSARA</small></div>
+        <span class="node node-satu">kata</span><span class="node node-dua">makna</span><span class="node node-tiga">pola</span><span class="node node-empat">biner</span>
+      </div>
+    </section>
+
+    <section class="papan-ringkasan" aria-label="Ringkasan sistem">
+      <div class="ringkasan-item"><span class="label">KAPASITAS VIRTUAL</span><strong id="statKapasitas">750.000</strong><small>unit kode terpetakan</small></div>
+      <div class="ringkasan-item"><span class="label">BAHASA</span><strong>id-ID</strong><small>kata, angka, simbol</small></div>
+      <div class="ringkasan-item"><span class="label">SUMBER AKTIF</span><strong id="statSumber">0</strong><small>dokumen .nz terbaca</small></div>
+      <div class="ringkasan-item"><span class="label">STATUS</span><strong class="warna-hijau">Siap</strong><small>mesin lokal terlindungi</small></div>
+    </section>
+
+    <section id="ruang" class="ruang kerja-panel">
+      <div class="bagian-kepala"><div><p class="eyebrow">01 / RUANG NALAR</p><h2>Tanyakan pada teks.</h2></div><span class="chip">PENCARIAN SEMANTIK LOKAL</span></div>
+      <div class="nalar-grid">
+        <div class="kolom-input">
+          <label for="pertanyaan">Pertanyaan atau instruksi</label>
+          <textarea id="pertanyaan" rows="7" placeholder="Contoh: jelaskan hubungan antara kata, pola, dan pengetahuan...">Apa yang dapat dibaca dari pola teks?</textarea>
+          <div class="baris-aksi"><button class="tombol tombol-utama" id="tombolNalar" type="button">Jalankan nalar <span>→</span></button><span class="hitung" id="hitungKarakter">0 karakter</span></div>
+        </div>
+        <div class="kolom-hasil" aria-live="polite">
+          <div class="hasil-kepala"><span class="status-dot"></span><span id="statusNalar">Menunggu pertanyaan</span><span class="hasil-waktu" id="waktuNalar">—</span></div>
+          <div id="hasilNalar" class="hasil-isi"><p class="placeholder">Jawaban berbasis pengetahuan yang Anda muat akan tampil di sini. Sistem tidak mengirim teks ke luar peramban.</p></div>
+          <div class="hasil-kaki"><span>MODEL / NALAR-AKSARA-LOCAL</span><button id="salinHasil" type="button">Salin jawaban</button></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="pengetahuan" class="dua-kolom">
+      <div class="panel panel-pengetahuan"><div class="bagian-kepala ringkas"><div><p class="eyebrow">02 / PENGETAHUAN</p><h2>Masukkan sumber .nz</h2></div><span class="ikon-bulat">＋</span></div>
+        <p class="panel-intro">Tambahkan berkas pengetahuan Anda. Isi dibaca secara lokal untuk membuat indeks kata dan pola, tanpa korpus bawaan.</p>
+        <label class="dropzone" for="pemilihBerkas"><span class="drop-ikon">⇧</span><strong>Tarik berkas ke sini</strong><small>atau pilih satu / beberapa berkas .nz</small><input id="pemilihBerkas" type="file" accept=".nz,text/plain" multiple></label>
+        <div id="daftarSumber" class="daftar-sumber"><p class="kosong">Belum ada sumber. Pilih berkas .nz untuk memulai.</p></div>
+      </div>
+      <div class="panel panel-komponen"><div class="bagian-kepala ringkas"><div><p class="eyebrow">03 / KOMPONEN</p><h2>Bahasa tampilan</h2></div><span class="chip chip-hijau">AKTIF</span></div>
+        <div class="komponen-list"><div><span class="simbol">Aa</span><span><strong>Kata</strong><small>Token bahasa Indonesia</small></span><b>01</b></div><div><span class="simbol">#</span><span><strong>Angka</strong><small>Nilai dan satuan</small></span><b>02</b></div><div><span class="simbol">⌘</span><span><strong>Simbol</strong><small>Relasi dan penanda</small></span><b>03</b></div><div><span class="simbol">01</span><span><strong>Biner</strong><small>Representasi pola</small></span><b>04</b></div></div>
+      </div>
+    </section>
+
+    <section id="pola" class="pola-panel"><div class="bagian-kepala"><div><p class="eyebrow">04 / POLA DATA</p><h2>Struktur yang terlihat.</h2></div><div class="pilihan"><button class="pilihan-aktif" data-pola="batang" type="button">Frekuensi</button><button data-pola="biner" type="button">Biner</button></div></div><div class="pola-layout"><div class="grafik-batang" id="grafikPola"></div><div class="pola-catatan"><p class="angka-besar" id="jumlahToken">0</p><p>token terindeks</p><div class="garis-nilai"><span>Keunikan kata</span><strong id="keunikanKata">0%</strong></div><div class="garis-nilai"><span>Ritme simbol</span><strong id="ritmeSimbol">0%</strong></div><code id="polaBiner">01001011 01000001</code></div></div></section>
+
+    <section id="arsip" class="arsip-panel"><div><p class="eyebrow">05 / ARSIP</p><h2>Jejak kerja Anda.</h2><p class="panel-intro">Ringkasan aktivitas disimpan pada peramban ini. Tidak ada akun dan tidak ada pengiriman otomatis.</p></div><div class="arsip-stat"><span>SESI SAAT INI</span><strong id="statSesi">01</strong><small id="waktuSesi">baru dimulai</small></div><button class="tombol tombol-hening" id="hapusArsip" type="button">Bersihkan sesi</button></section>
+  </main>
+  <footer class="kaki"><span>© 2026 NALAR AKSARA</span><span>SISTEM TEKS / KATA · ANGKA · SIMBOL · BINER</span><span>BERJALAN DI PERAMBAN ANDA</span></footer>
+  <script src="aplikasi.js"></script>
+</body>
+</html>
